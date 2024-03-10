@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Hitung Harga Properti (Positive Case)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7beb1985-87f4-4dbc-adf9-f52b47e8289c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>189c9404-9d53-41a8-aeca-129f9af875b1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fc1827e8-b439-4512-b666-19bf5f481e2b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cd0ab527-ebb3-454e-9e8a-980ea056df2b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>189c9404-9d53-41a8-aeca-129f9af875b1</id>
+      <masked>false</masked>
+      <name>Penghasilan_Total</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fc1827e8-b439-4512-b666-19bf5f481e2b</id>
+      <masked>false</masked>
+      <name>Pengeluaran</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cd0ab527-ebb3-454e-9e8a-980ea056df2b</id>
+      <masked>false</masked>
+      <name>Jangka_Waktu</name>
+   </variable>
+</TestCaseEntity>

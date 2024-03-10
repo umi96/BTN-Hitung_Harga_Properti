@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Hitung Harga Properti (Negatif)" time="191.909" tests="3" failures="0" errors="0">
+   <testsuite name="Hitung Harga Properti (Negatif)" tests="3" failures="0" errors="0" time="191.909" skipped="0" timestamp="10-03-2024T23:27:57" hostname="datamart - LAPTOP-ME9O2NRH.ax.indonet.co.id" id="Test Suites/Hitung Harga Properti (Negatif)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_232634\\Hitung Harga Properti (Negatif)\\20240310_232634"/>
+         <property name="logFiles" value="G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_232634\\Hitung Harga Properti (Negatif)\\20240310_232634\\execution0.log"/>
+         <property name="attachments" value="G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_232634\\Hitung Harga Properti (Negatif)\\20240310_232634\\Screenshots/Hitung Harga Properti/Negative Case/Hasil Hitung Negatif Data Ke1.png, G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_232634\\Hitung Harga Properti (Negatif)\\20240310_232634\\Screenshots/Hitung Harga Properti/Negative Case/Hasil Hitung Negatif Data Ke2.png, G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_232634\\Hitung Harga Properti (Negatif)\\20240310_232634\\Screenshots/Hitung Harga Properti/Negative Case/Hasil Hitung Negatif Data Ke1.png, G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_232634\\Hitung Harga Properti (Negatif)\\20240310_232634\\Screenshots/Hitung Harga Properti/Negative Case/Hasil Hitung Negatif Data Ke2.png"/>
+         <property name="hostName" value="datamart - LAPTOP-ME9O2NRH.ax.indonet.co.id"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.1.212"/>
+         <property name="browser" value="Chrome 122.0.0.0"/>
+         <property name="hostAddress" value="192.168.43.13"/>
+         <property name="sessionId" value="53afffb6bf2381df9b1d17fe65e3b291"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Open URL" time="35.365" classname="Test Cases/Open URL" status="PASSED">
+         <system-out><![CDATA[10-03-2024T23:27:57 - [TEST_CASE][PASSED] - Test Cases/Open URL: Test Cases/Open URL
+
+10-03-2024T23:27:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-03-2024T23:27:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-03-2024T23:27:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-03-2024T23:28:01 - [MESSAGE][WARNING] - FFmpeg was not installed! Browser Recording will be disabled. Please follow this document to install FFmpeg first: https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder
+
+10-03-2024T23:28:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-03-2024T23:28:01 - [TEST_STEP][PASSED] - navigateToUrl("https://www.btnproperti.co.id/tools/hitung-harga-properti"): Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully
+
+10-03-2024T23:28:33 - [MESSAGE][PASSED] - Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Hitung Harga Properti (Negative Case)" time="85.043" classname="Test Cases/Hitung Harga Properti (Negative Case)" status="PASSED">
+         <system-out><![CDATA[10-03-2024T23:28:33 - [TEST_CASE][PASSED] - Test Cases/Hitung Harga Properti (Negative Case): Test Cases/Hitung Harga Properti (Negative Case)
+
+10-03-2024T23:28:33 - [TEST_STEP][PASSED] - projectDir = Paths.get(getProjectDir()): null
+
+10-03-2024T23:28:33 - [TEST_STEP][PASSED] - reportDir = projectDir.resolve("Screenshots/Hitung Harga Properti/Negative Case/"): null
+
+10-03-2024T23:28:33 - [TEST_STEP][PASSED] - Files.createDirectories(reportDir): null
+
+10-03-2024T23:28:33 - [TEST_STEP][PASSED] - base_dir = "Screenshots/Hitung Harga Properti/Negative Case/": null
+
+10-03-2024T23:28:33 - [TEST_STEP][PASSED] - println("1. Perhitungan Aplikasi Web (Penghasilan Total > Pengeluaran)"): null
+
+10-03-2024T23:28:33 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+10-03-2024T23:29:04 - [MESSAGE][PASSED] - Refresh successfully
+
+10-03-2024T23:29:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Negative Data").getValue(1, 1)): Text '10000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:29:07 - [MESSAGE][PASSED] - Text '10000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:29:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Negative Data").getValue(2, 1)): Text '10000001' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:29:08 - [MESSAGE][PASSED] - Text '10000001' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:29:08 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Negative Data").getValue(3, 1), true): All options with value '5' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:29:09 - [MESSAGE][PASSED] - All options with value '5' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:29:09 - [TEST_STEP][PASSED] - takeScreenshot(base_dir + "Hasil Hitung Negatif Data Ke1.png"): Taking screenshot successfully
+
+10-03-2024T23:29:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_232634\\Hitung Harga Properti (Negatif)\\20240310_232634\\Screenshots/Hitung Harga Properti/Negative Case/Hasil Hitung Negatif Data Ke1.png]]
+
+10-03-2024T23:29:10 - [TEST_STEP][PASSED] - println("Penghasilan Total Kurang Dari Pengeluaran"): null
+
+10-03-2024T23:29:10 - [TEST_STEP][PASSED] - println("-----------------------------------------------------------------------------------------------------------------------"): null
+
+10-03-2024T23:29:10 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+10-03-2024T23:29:10 - [MESSAGE][PASSED] - Refresh successfully
+
+10-03-2024T23:29:10 - [TEST_STEP][PASSED] - println("2. Perhitungan Aplikasi Web (Penghasilan Total > Pengeluaran) Dengan Nilai Koma"): null
+
+10-03-2024T23:29:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Negative Data").getValue(1, 2)): Text '8434533,53' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:29:53 - [MESSAGE][PASSED] - Text '8434533,53' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:29:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Negative Data").getValue(2, 2)): Text '10000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:29:54 - [MESSAGE][PASSED] - Text '10000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:29:54 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Negative Data").getValue(3, 2), true): All options with value '10' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:29:56 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:29:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Button_Hitung Harga")): Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:29:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:29:56 - [TEST_STEP][PASSED] - takeScreenshot(base_dir + "Hasil Hitung Negatif Data Ke2.png"): Taking screenshot successfully
+
+10-03-2024T23:29:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_232634\\Hitung Harga Properti (Negatif)\\20240310_232634\\Screenshots/Hitung Harga Properti/Negative Case/Hasil Hitung Negatif Data Ke2.png]]
+
+10-03-2024T23:29:57 - [TEST_STEP][PASSED] - Hasil_Hitung_2 = getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp -62.618.680'
+
+10-03-2024T23:29:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp -62.618.680'
+
+10-03-2024T23:29:58 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Dengan Nilai Koma=" + Hasil_Hitung_2): null
+
+10-03-2024T23:29:58 - [TEST_STEP][PASSED] - println(" -> Tidak muncul validasi penghasilan total kurang dari pengeluaran"): null
+
+10-03-2024T23:29:58 - [TEST_STEP][PASSED] - println(" -> Hasil hitung bernilai minus (-)"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Hitung Harga Properti (Negative Case)" time="71.025" classname="Test Cases/Hitung Harga Properti (Negative Case)" status="PASSED">
+         <system-out><![CDATA[10-03-2024T23:29:58 - [TEST_CASE][PASSED] - Test Cases/Hitung Harga Properti (Negative Case): Test Cases/Hitung Harga Properti (Negative Case)
+
+10-03-2024T23:29:58 - [TEST_STEP][PASSED] - projectDir = Paths.get(getProjectDir()): null
+
+10-03-2024T23:29:58 - [TEST_STEP][PASSED] - reportDir = projectDir.resolve("Screenshots/Hitung Harga Properti/Negative Case/"): null
+
+10-03-2024T23:29:58 - [TEST_STEP][PASSED] - Files.createDirectories(reportDir): null
+
+10-03-2024T23:29:58 - [TEST_STEP][PASSED] - base_dir = "Screenshots/Hitung Harga Properti/Negative Case/": null
+
+10-03-2024T23:29:58 - [TEST_STEP][PASSED] - println("1. Perhitungan Aplikasi Web (Penghasilan Total > Pengeluaran)"): null
+
+10-03-2024T23:29:58 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+10-03-2024T23:29:58 - [MESSAGE][PASSED] - Refresh successfully
+
+10-03-2024T23:29:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Negative Data").getValue(1, 1)): Text '10000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:30:30 - [MESSAGE][PASSED] - Text '10000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:30:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Negative Data").getValue(2, 1)): Text '10000001' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:30:31 - [MESSAGE][PASSED] - Text '10000001' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:30:31 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Negative Data").getValue(3, 1), true): All options with value '5' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:30:32 - [MESSAGE][PASSED] - All options with value '5' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:30:32 - [TEST_STEP][PASSED] - takeScreenshot(base_dir + "Hasil Hitung Negatif Data Ke1.png"): Taking screenshot successfully
+
+10-03-2024T23:30:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_232634\\Hitung Harga Properti (Negatif)\\20240310_232634\\Screenshots/Hitung Harga Properti/Negative Case/Hasil Hitung Negatif Data Ke1.png]]
+
+10-03-2024T23:30:33 - [TEST_STEP][PASSED] - println("Penghasilan Total Kurang Dari Pengeluaran"): null
+
+10-03-2024T23:30:33 - [TEST_STEP][PASSED] - println("-----------------------------------------------------------------------------------------------------------------------"): null
+
+10-03-2024T23:30:33 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+10-03-2024T23:31:04 - [MESSAGE][PASSED] - Refresh successfully
+
+10-03-2024T23:31:04 - [TEST_STEP][PASSED] - println("2. Perhitungan Aplikasi Web (Penghasilan Total > Pengeluaran) Dengan Nilai Koma"): null
+
+10-03-2024T23:31:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Negative Data").getValue(1, 2)): Text '8434533,53' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:31:05 - [MESSAGE][PASSED] - Text '8434533,53' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:31:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Negative Data").getValue(2, 2)): Text '10000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:31:05 - [MESSAGE][PASSED] - Text '10000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:31:05 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Negative Data").getValue(3, 2), true): All options with value '10' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:31:07 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:31:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Button_Hitung Harga")): Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:31:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:31:07 - [TEST_STEP][PASSED] - takeScreenshot(base_dir + "Hasil Hitung Negatif Data Ke2.png"): Taking screenshot successfully
+
+10-03-2024T23:31:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_232634\\Hitung Harga Properti (Negatif)\\20240310_232634\\Screenshots/Hitung Harga Properti/Negative Case/Hasil Hitung Negatif Data Ke2.png]]
+
+10-03-2024T23:31:08 - [TEST_STEP][PASSED] - Hasil_Hitung_2 = getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp -62.618.680'
+
+10-03-2024T23:31:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp -62.618.680'
+
+10-03-2024T23:31:09 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Dengan Nilai Koma=" + Hasil_Hitung_2): null
+
+10-03-2024T23:31:09 - [TEST_STEP][PASSED] - println(" -> Tidak muncul validasi penghasilan total kurang dari pengeluaran"): null
+
+10-03-2024T23:31:09 - [TEST_STEP][PASSED] - println(" -> Hasil hitung bernilai minus (-)"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[10-03-2024T23:27:57 - [TEST_SUITE][PASSED] - Hitung Harga Properti (Negatif): Test Cases/Hitung Harga Properti (Negative Case)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

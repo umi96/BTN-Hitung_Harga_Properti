@@ -1,0 +1,3 @@
+{"testCaseName":"Test Cases/Open URL","testCaseId":"Test Cases/Open URL","iterationVariableName":""}
+{"testCaseName":"Test Cases/Hitung Harga Properti (Negative Case)","testCaseId":"Test Cases/Hitung Harga Properti (Negative Case)","iterationVariableName":"","bindedValues":{"jangka_waktu":"\u00275\u0027","penghasilan_total":"\u002710000000\u0027","pengeluaran":"\u002710000001\u0027"}}
+{"testCaseName":"Test Cases/Hitung Harga Properti (Negative Case)","testCaseId":"Test Cases/Hitung Harga Properti (Negative Case)","iterationVariableName":"","bindedValues":{"jangka_waktu":"\u002710\u0027","penghasilan_total":"\u00278434533,53\u0027","pengeluaran":"\u002710000000\u0027"}}

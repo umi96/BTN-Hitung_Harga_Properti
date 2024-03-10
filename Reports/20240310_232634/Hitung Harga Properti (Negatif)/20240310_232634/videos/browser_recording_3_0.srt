@@ -1,0 +1,92 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. projectDir = Paths.get(getProjectDir())
+
+2
+00:00:00,000 --> 00:00:00,000
+5. reportDir = projectDir.resolve("Screenshots/Hitung Harga Properti/Negative Case/")
+
+3
+00:00:00,000 --> 00:00:00,000
+9. Files.createDirectories(reportDir)
+
+4
+00:00:00,000 --> 00:00:00,000
+13. base_dir = "Screenshots/Hitung Harga Properti/Negative Case/"
+
+5
+00:00:00,000 --> 00:00:00,000
+17. println("1. Perhitungan Aplikasi Web (Penghasilan Total > Pengeluaran)")
+
+6
+00:00:00,000 --> 00:00:00,000
+21. refresh()
+
+7
+00:00:00,000 --> 00:00:00,000
+25. setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Negative Data").getValue(1, 1))
+
+8
+00:00:00,000 --> 00:00:00,000
+29. setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Negative Data").getValue(2, 1))
+
+9
+00:00:00,000 --> 00:00:00,000
+33. selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Negative Data").getValue(3, 1), true)
+
+10
+00:00:00,000 --> 00:00:00,000
+37. takeScreenshot(base_dir + "Hasil Hitung Negatif Data Ke1.png")
+
+11
+00:00:00,000 --> 00:00:00,000
+41. println("Penghasilan Total Kurang Dari Pengeluaran")
+
+12
+00:00:00,000 --> 00:00:00,000
+45. println("-----------------------------------------------------------------------------------------------------------------------")
+
+13
+00:00:00,000 --> 00:00:00,000
+49. refresh()
+
+14
+00:00:00,000 --> 00:00:00,000
+53. println("2. Perhitungan Aplikasi Web (Penghasilan Total > Pengeluaran) Dengan Nilai Koma")
+
+15
+00:00:00,000 --> 00:00:00,000
+57. setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Negative Data").getValue(1, 2))
+
+16
+00:00:00,000 --> 00:00:00,000
+61. setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Negative Data").getValue(2, 2))
+
+17
+00:00:00,000 --> 00:00:00,000
+65. selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Negative Data").getValue(3, 2), true)
+
+18
+00:00:00,000 --> 00:00:00,000
+69. click(findTestObject("Object Repository/Button_Hitung Harga"))
+
+19
+00:00:00,000 --> 00:00:00,000
+73. takeScreenshot(base_dir + "Hasil Hitung Negatif Data Ke2.png")
+
+20
+00:00:00,000 --> 00:00:00,000
+77. Hasil_Hitung_2 = getText(findTestObject("Object Repository/Hasil Hitung Properti"))
+
+21
+00:00:00,000 --> 00:00:00,000
+81. println("++++ Hasil Hitung Harga Properti Dengan Nilai Koma=" + Hasil_Hitung_2)
+
+22
+00:00:00,000 --> 00:00:00,000
+85. println(" -> Tidak muncul validasi penghasilan total kurang dari pengeluaran")
+
+23
+00:00:00,000 --> 00:00:00,000
+89. println(" -> Hasil hitung bernilai minus (-)")
+

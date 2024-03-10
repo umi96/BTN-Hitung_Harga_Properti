@@ -1,0 +1,1386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Hitung Harga Properti (Positif)" time="464.463" tests="6" failures="0" errors="0">
+   <testsuite name="Hitung Harga Properti (Positif)" tests="6" failures="0" errors="0" time="464.463" skipped="0" timestamp="10-03-2024T23:39:40" hostname="datamart - LAPTOP-ME9O2NRH.ax.indonet.co.id" id="Test Suites/Hitung Harga Properti (Positif)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608"/>
+         <property name="logFiles" value="G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\execution0.log"/>
+         <property name="attachments" value="G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)1.png, G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)2.png, G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)3.png, G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)4.png, G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)5.png, G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)1.png, G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)2.png, G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)3.png, G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)4.png, G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)5.png, G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)1.png, G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)2.png, G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)3.png, G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)4.png, G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)5.png, G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)1.png, G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)2.png, G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)3.png, G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)4.png, G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)5.png, G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)1.png, G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)2.png, G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)3.png, G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)4.png, G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)5.png"/>
+         <property name="hostName" value="datamart - LAPTOP-ME9O2NRH.ax.indonet.co.id"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.1.212"/>
+         <property name="browser" value="Chrome 122.0.0.0"/>
+         <property name="hostAddress" value="192.168.43.13"/>
+         <property name="sessionId" value="d293afea213551df1727789ca4bf47bb"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Open URL" time="40.201" classname="Test Cases/Open URL" status="PASSED">
+         <system-out><![CDATA[10-03-2024T23:39:40 - [TEST_CASE][PASSED] - Test Cases/Open URL: Test Cases/Open URL
+
+10-03-2024T23:39:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-03-2024T23:39:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-03-2024T23:39:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-03-2024T23:39:43 - [MESSAGE][WARNING] - FFmpeg was not installed! Browser Recording will be disabled. Please follow this document to install FFmpeg first: https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder
+
+10-03-2024T23:39:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-03-2024T23:39:43 - [TEST_STEP][PASSED] - navigateToUrl("https://www.btnproperti.co.id/tools/hitung-harga-properti"): Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully
+
+10-03-2024T23:40:20 - [MESSAGE][PASSED] - Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Hitung Harga Properti (Positive Case)" time="88.423" classname="Test Cases/Hitung Harga Properti (Positive Case)" status="PASSED">
+         <system-out><![CDATA[10-03-2024T23:40:20 - [TEST_CASE][PASSED] - Test Cases/Hitung Harga Properti (Positive Case): Test Cases/Hitung Harga Properti (Positive Case)
+
+10-03-2024T23:40:21 - [TEST_STEP][PASSED] - projectDir = Paths.get(getProjectDir()): null
+
+10-03-2024T23:40:21 - [TEST_STEP][PASSED] - reportDir = projectDir.resolve("Screenshots/Hitung Harga Properti/Positive Case/"): null
+
+10-03-2024T23:40:21 - [TEST_STEP][PASSED] - Files.createDirectories(reportDir): null
+
+10-03-2024T23:40:21 - [TEST_STEP][PASSED] - base_dir = "Screenshots/Hitung Harga Properti/Positive Case/": null
+
+10-03-2024T23:40:21 - [TEST_STEP][PASSED] - for ([rowNum = 1, rowNum <= findTestData("Positive Data").getRowNumbers(), <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>]): null
+
+10-03-2024T23:40:22 - [TEST_STEP][PASSED] - println("Perhitungan Aplikasi Web (Data Positif)"): null
+
+10-03-2024T23:40:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Positive Data").getValue(1, rowNum)): Text '50000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:40:23 - [MESSAGE][PASSED] - Text '50000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:40:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Positive Data").getValue(2, rowNum)): Text '30000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:40:54 - [MESSAGE][PASSED] - Text '30000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:40:54 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Positive Data").getValue(3, rowNum), true): All options with value '25' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:41:11 - [MESSAGE][PASSED] - All options with value '25' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:41:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Button_Hitung Harga")): Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:41:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:41:11 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 2.000.000.000'
+
+10-03-2024T23:41:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 2.000.000.000'
+
+10-03-2024T23:41:14 - [TEST_STEP][PASSED] - takeScreenshot(base_dir + "Hasil Harga Properti (Data Positif)" + rowNum + ".png"): Taking screenshot successfully
+
+10-03-2024T23:41:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)1.png]]
+
+10-03-2024T23:41:22 - [TEST_STEP][PASSED] - Hasil_Hitung_1 = getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 2.000.000.000'
+
+10-03-2024T23:41:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 2.000.000.000'
+
+10-03-2024T23:41:22 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Apkikasi =" + Hasil_Hitung_1): null
+
+10-03-2024T23:41:22 - [TEST_STEP][PASSED] - println("Perhitungan Manual (Data Positif)"): null
+
+10-03-2024T23:41:22 - [TEST_STEP][PASSED] - PenghasilanTotal1 = getValue(1, rowNum).toInteger(): null
+
+10-03-2024T23:41:22 - [TEST_STEP][PASSED] - Pengeluaran1 = getValue(2, rowNum).toInteger(): null
+
+10-03-2024T23:41:22 - [TEST_STEP][PASSED] - JangkaWaktu1 = getValue(3, rowNum).toInteger(): null
+
+10-03-2024T23:41:22 - [TEST_STEP][PASSED] - Hitung_Harga_Properti_Manual = PenghasilanTotal1 - Pengeluaran1 * JangkaWaktu1 * 12 / 3: null
+
+10-03-2024T23:41:22 - [TEST_STEP][PASSED] - Hasil_Hitung_Manual1 = Hitung_Harga_Properti_Manual.toString(): null
+
+10-03-2024T23:41:22 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Manual =" + Hasil_Hitung_Manual1): null
+
+10-03-2024T23:41:22 - [TEST_STEP][PASSED] - if (Hasil_Hitung_1 == Hasil_Hitung_Manual1): null
+
+10-03-2024T23:41:22 - [TEST_STEP][PASSED] - (rowNum++): null
+
+10-03-2024T23:41:22 - [TEST_STEP][PASSED] - println("Perhitungan Aplikasi Web (Data Positif)"): null
+
+10-03-2024T23:41:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Positive Data").getValue(1, rowNum)): Text '50000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:41:23 - [MESSAGE][PASSED] - Text '50000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:41:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Positive Data").getValue(2, rowNum)): Text '20000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:41:24 - [MESSAGE][PASSED] - Text '20000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:41:24 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Positive Data").getValue(3, rowNum), true): All options with value '10' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:41:25 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:41:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Button_Hitung Harga")): Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:41:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:41:26 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 1.200.000.000'
+
+10-03-2024T23:41:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 1.200.000.000'
+
+10-03-2024T23:41:27 - [TEST_STEP][PASSED] - takeScreenshot(base_dir + "Hasil Harga Properti (Data Positif)" + rowNum + ".png"): Taking screenshot successfully
+
+10-03-2024T23:41:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)2.png]]
+
+10-03-2024T23:41:27 - [TEST_STEP][PASSED] - Hasil_Hitung_1 = getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 1.200.000.000'
+
+10-03-2024T23:41:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 1.200.000.000'
+
+10-03-2024T23:41:27 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Apkikasi =" + Hasil_Hitung_1): null
+
+10-03-2024T23:41:27 - [TEST_STEP][PASSED] - println("Perhitungan Manual (Data Positif)"): null
+
+10-03-2024T23:41:27 - [TEST_STEP][PASSED] - PenghasilanTotal1 = getValue(1, rowNum).toInteger(): null
+
+10-03-2024T23:41:27 - [TEST_STEP][PASSED] - Pengeluaran1 = getValue(2, rowNum).toInteger(): null
+
+10-03-2024T23:41:27 - [TEST_STEP][PASSED] - JangkaWaktu1 = getValue(3, rowNum).toInteger(): null
+
+10-03-2024T23:41:27 - [TEST_STEP][PASSED] - Hitung_Harga_Properti_Manual = PenghasilanTotal1 - Pengeluaran1 * JangkaWaktu1 * 12 / 3: null
+
+10-03-2024T23:41:27 - [TEST_STEP][PASSED] - Hasil_Hitung_Manual1 = Hitung_Harga_Properti_Manual.toString(): null
+
+10-03-2024T23:41:27 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Manual =" + Hasil_Hitung_Manual1): null
+
+10-03-2024T23:41:27 - [TEST_STEP][PASSED] - if (Hasil_Hitung_1 == Hasil_Hitung_Manual1): null
+
+10-03-2024T23:41:27 - [TEST_STEP][PASSED] - (rowNum++): null
+
+10-03-2024T23:41:27 - [TEST_STEP][PASSED] - println("Perhitungan Aplikasi Web (Data Positif)"): null
+
+10-03-2024T23:41:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Positive Data").getValue(1, rowNum)): Text '20000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:41:28 - [MESSAGE][PASSED] - Text '20000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:41:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Positive Data").getValue(2, rowNum)): Text '10000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:41:34 - [MESSAGE][PASSED] - Text '10000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:41:34 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Positive Data").getValue(3, rowNum), true): All options with value '15' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:41:36 - [MESSAGE][PASSED] - All options with value '15' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:41:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Button_Hitung Harga")): Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:41:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:41:36 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 600.000.000'
+
+10-03-2024T23:41:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 600.000.000'
+
+10-03-2024T23:41:37 - [TEST_STEP][PASSED] - takeScreenshot(base_dir + "Hasil Harga Properti (Data Positif)" + rowNum + ".png"): Taking screenshot successfully
+
+10-03-2024T23:41:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)3.png]]
+
+10-03-2024T23:41:38 - [TEST_STEP][PASSED] - Hasil_Hitung_1 = getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 600.000.000'
+
+10-03-2024T23:41:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 600.000.000'
+
+10-03-2024T23:41:38 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Apkikasi =" + Hasil_Hitung_1): null
+
+10-03-2024T23:41:38 - [TEST_STEP][PASSED] - println("Perhitungan Manual (Data Positif)"): null
+
+10-03-2024T23:41:38 - [TEST_STEP][PASSED] - PenghasilanTotal1 = getValue(1, rowNum).toInteger(): null
+
+10-03-2024T23:41:38 - [TEST_STEP][PASSED] - Pengeluaran1 = getValue(2, rowNum).toInteger(): null
+
+10-03-2024T23:41:38 - [TEST_STEP][PASSED] - JangkaWaktu1 = getValue(3, rowNum).toInteger(): null
+
+10-03-2024T23:41:38 - [TEST_STEP][PASSED] - Hitung_Harga_Properti_Manual = PenghasilanTotal1 - Pengeluaran1 * JangkaWaktu1 * 12 / 3: null
+
+10-03-2024T23:41:38 - [TEST_STEP][PASSED] - Hasil_Hitung_Manual1 = Hitung_Harga_Properti_Manual.toString(): null
+
+10-03-2024T23:41:38 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Manual =" + Hasil_Hitung_Manual1): null
+
+10-03-2024T23:41:38 - [TEST_STEP][PASSED] - if (Hasil_Hitung_1 == Hasil_Hitung_Manual1): null
+
+10-03-2024T23:41:38 - [TEST_STEP][PASSED] - (rowNum++): null
+
+10-03-2024T23:41:38 - [TEST_STEP][PASSED] - println("Perhitungan Aplikasi Web (Data Positif)"): null
+
+10-03-2024T23:41:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Positive Data").getValue(1, rowNum)): Text '15000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:41:39 - [MESSAGE][PASSED] - Text '15000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:41:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Positive Data").getValue(2, rowNum)): Text '5000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:41:40 - [MESSAGE][PASSED] - Text '5000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:41:40 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Positive Data").getValue(3, rowNum), true): All options with value '20' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:41:42 - [MESSAGE][PASSED] - All options with value '20' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:41:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Button_Hitung Harga")): Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:41:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:41:42 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 800.000.000'
+
+10-03-2024T23:41:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 800.000.000'
+
+10-03-2024T23:41:43 - [TEST_STEP][PASSED] - takeScreenshot(base_dir + "Hasil Harga Properti (Data Positif)" + rowNum + ".png"): Taking screenshot successfully
+
+10-03-2024T23:41:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)4.png]]
+
+10-03-2024T23:41:43 - [TEST_STEP][PASSED] - Hasil_Hitung_1 = getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 800.000.000'
+
+10-03-2024T23:41:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 800.000.000'
+
+10-03-2024T23:41:44 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Apkikasi =" + Hasil_Hitung_1): null
+
+10-03-2024T23:41:44 - [TEST_STEP][PASSED] - println("Perhitungan Manual (Data Positif)"): null
+
+10-03-2024T23:41:44 - [TEST_STEP][PASSED] - PenghasilanTotal1 = getValue(1, rowNum).toInteger(): null
+
+10-03-2024T23:41:44 - [TEST_STEP][PASSED] - Pengeluaran1 = getValue(2, rowNum).toInteger(): null
+
+10-03-2024T23:41:44 - [TEST_STEP][PASSED] - JangkaWaktu1 = getValue(3, rowNum).toInteger(): null
+
+10-03-2024T23:41:44 - [TEST_STEP][PASSED] - Hitung_Harga_Properti_Manual = PenghasilanTotal1 - Pengeluaran1 * JangkaWaktu1 * 12 / 3: null
+
+10-03-2024T23:41:44 - [TEST_STEP][PASSED] - Hasil_Hitung_Manual1 = Hitung_Harga_Properti_Manual.toString(): null
+
+10-03-2024T23:41:44 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Manual =" + Hasil_Hitung_Manual1): null
+
+10-03-2024T23:41:44 - [TEST_STEP][PASSED] - if (Hasil_Hitung_1 == Hasil_Hitung_Manual1): null
+
+10-03-2024T23:41:44 - [TEST_STEP][PASSED] - (rowNum++): null
+
+10-03-2024T23:41:44 - [TEST_STEP][PASSED] - println("Perhitungan Aplikasi Web (Data Positif)"): null
+
+10-03-2024T23:41:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Positive Data").getValue(1, rowNum)): Text '10000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:41:44 - [MESSAGE][PASSED] - Text '10000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:41:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Positive Data").getValue(2, rowNum)): Text '3000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:41:45 - [MESSAGE][PASSED] - Text '3000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:41:45 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Positive Data").getValue(3, rowNum), true): All options with value '25' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:41:47 - [MESSAGE][PASSED] - All options with value '25' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:41:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Button_Hitung Harga")): Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:41:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:41:47 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 700.000.000'
+
+10-03-2024T23:41:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 700.000.000'
+
+10-03-2024T23:41:48 - [TEST_STEP][PASSED] - takeScreenshot(base_dir + "Hasil Harga Properti (Data Positif)" + rowNum + ".png"): Taking screenshot successfully
+
+10-03-2024T23:41:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)5.png]]
+
+10-03-2024T23:41:48 - [TEST_STEP][PASSED] - Hasil_Hitung_1 = getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 700.000.000'
+
+10-03-2024T23:41:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 700.000.000'
+
+10-03-2024T23:41:49 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Apkikasi =" + Hasil_Hitung_1): null
+
+10-03-2024T23:41:49 - [TEST_STEP][PASSED] - println("Perhitungan Manual (Data Positif)"): null
+
+10-03-2024T23:41:49 - [TEST_STEP][PASSED] - PenghasilanTotal1 = getValue(1, rowNum).toInteger(): null
+
+10-03-2024T23:41:49 - [TEST_STEP][PASSED] - Pengeluaran1 = getValue(2, rowNum).toInteger(): null
+
+10-03-2024T23:41:49 - [TEST_STEP][PASSED] - JangkaWaktu1 = getValue(3, rowNum).toInteger(): null
+
+10-03-2024T23:41:49 - [TEST_STEP][PASSED] - Hitung_Harga_Properti_Manual = PenghasilanTotal1 - Pengeluaran1 * JangkaWaktu1 * 12 / 3: null
+
+10-03-2024T23:41:49 - [TEST_STEP][PASSED] - Hasil_Hitung_Manual1 = Hitung_Harga_Properti_Manual.toString(): null
+
+10-03-2024T23:41:49 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Manual =" + Hasil_Hitung_Manual1): null
+
+10-03-2024T23:41:49 - [TEST_STEP][PASSED] - if (Hasil_Hitung_1 == Hasil_Hitung_Manual1): null
+
+10-03-2024T23:41:49 - [TEST_STEP][PASSED] - (rowNum++): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Hitung Harga Properti (Positive Case)" time="70.73" classname="Test Cases/Hitung Harga Properti (Positive Case)" status="PASSED">
+         <system-out><![CDATA[10-03-2024T23:41:49 - [TEST_CASE][PASSED] - Test Cases/Hitung Harga Properti (Positive Case): Test Cases/Hitung Harga Properti (Positive Case)
+
+10-03-2024T23:41:49 - [TEST_STEP][PASSED] - projectDir = Paths.get(getProjectDir()): null
+
+10-03-2024T23:41:49 - [TEST_STEP][PASSED] - reportDir = projectDir.resolve("Screenshots/Hitung Harga Properti/Positive Case/"): null
+
+10-03-2024T23:41:49 - [TEST_STEP][PASSED] - Files.createDirectories(reportDir): null
+
+10-03-2024T23:41:49 - [TEST_STEP][PASSED] - base_dir = "Screenshots/Hitung Harga Properti/Positive Case/": null
+
+10-03-2024T23:41:49 - [TEST_STEP][PASSED] - for ([rowNum = 1, rowNum <= findTestData("Positive Data").getRowNumbers(), <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>]): null
+
+10-03-2024T23:41:49 - [TEST_STEP][PASSED] - println("Perhitungan Aplikasi Web (Data Positif)"): null
+
+10-03-2024T23:41:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Positive Data").getValue(1, rowNum)): Text '50000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:41:50 - [MESSAGE][PASSED] - Text '50000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:41:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Positive Data").getValue(2, rowNum)): Text '30000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:42:10 - [MESSAGE][PASSED] - Text '30000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:42:10 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Positive Data").getValue(3, rowNum), true): All options with value '25' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:42:11 - [MESSAGE][PASSED] - All options with value '25' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:42:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Button_Hitung Harga")): Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:42:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:42:12 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 2.000.000.000'
+
+10-03-2024T23:42:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 2.000.000.000'
+
+10-03-2024T23:42:14 - [TEST_STEP][PASSED] - takeScreenshot(base_dir + "Hasil Harga Properti (Data Positif)" + rowNum + ".png"): Taking screenshot successfully
+
+10-03-2024T23:42:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)1.png]]
+
+10-03-2024T23:42:14 - [TEST_STEP][PASSED] - Hasil_Hitung_1 = getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 2.000.000.000'
+
+10-03-2024T23:42:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 2.000.000.000'
+
+10-03-2024T23:42:14 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Apkikasi =" + Hasil_Hitung_1): null
+
+10-03-2024T23:42:14 - [TEST_STEP][PASSED] - println("Perhitungan Manual (Data Positif)"): null
+
+10-03-2024T23:42:14 - [TEST_STEP][PASSED] - PenghasilanTotal1 = getValue(1, rowNum).toInteger(): null
+
+10-03-2024T23:42:14 - [TEST_STEP][PASSED] - Pengeluaran1 = getValue(2, rowNum).toInteger(): null
+
+10-03-2024T23:42:14 - [TEST_STEP][PASSED] - JangkaWaktu1 = getValue(3, rowNum).toInteger(): null
+
+10-03-2024T23:42:14 - [TEST_STEP][PASSED] - Hitung_Harga_Properti_Manual = PenghasilanTotal1 - Pengeluaran1 * JangkaWaktu1 * 12 / 3: null
+
+10-03-2024T23:42:14 - [TEST_STEP][PASSED] - Hasil_Hitung_Manual1 = Hitung_Harga_Properti_Manual.toString(): null
+
+10-03-2024T23:42:14 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Manual =" + Hasil_Hitung_Manual1): null
+
+10-03-2024T23:42:14 - [TEST_STEP][PASSED] - if (Hasil_Hitung_1 == Hasil_Hitung_Manual1): null
+
+10-03-2024T23:42:14 - [TEST_STEP][PASSED] - (rowNum++): null
+
+10-03-2024T23:42:14 - [TEST_STEP][PASSED] - println("Perhitungan Aplikasi Web (Data Positif)"): null
+
+10-03-2024T23:42:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Positive Data").getValue(1, rowNum)): Text '50000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:42:15 - [MESSAGE][PASSED] - Text '50000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:42:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Positive Data").getValue(2, rowNum)): Text '20000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:42:16 - [MESSAGE][PASSED] - Text '20000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:42:16 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Positive Data").getValue(3, rowNum), true): All options with value '10' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:42:18 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:42:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Button_Hitung Harga")): Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:42:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:42:18 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 1.200.000.000'
+
+10-03-2024T23:42:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 1.200.000.000'
+
+10-03-2024T23:42:19 - [TEST_STEP][PASSED] - takeScreenshot(base_dir + "Hasil Harga Properti (Data Positif)" + rowNum + ".png"): Taking screenshot successfully
+
+10-03-2024T23:42:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)2.png]]
+
+10-03-2024T23:42:19 - [TEST_STEP][PASSED] - Hasil_Hitung_1 = getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 1.200.000.000'
+
+10-03-2024T23:42:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 1.200.000.000'
+
+10-03-2024T23:42:20 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Apkikasi =" + Hasil_Hitung_1): null
+
+10-03-2024T23:42:20 - [TEST_STEP][PASSED] - println("Perhitungan Manual (Data Positif)"): null
+
+10-03-2024T23:42:20 - [TEST_STEP][PASSED] - PenghasilanTotal1 = getValue(1, rowNum).toInteger(): null
+
+10-03-2024T23:42:20 - [TEST_STEP][PASSED] - Pengeluaran1 = getValue(2, rowNum).toInteger(): null
+
+10-03-2024T23:42:20 - [TEST_STEP][PASSED] - JangkaWaktu1 = getValue(3, rowNum).toInteger(): null
+
+10-03-2024T23:42:20 - [TEST_STEP][PASSED] - Hitung_Harga_Properti_Manual = PenghasilanTotal1 - Pengeluaran1 * JangkaWaktu1 * 12 / 3: null
+
+10-03-2024T23:42:20 - [TEST_STEP][PASSED] - Hasil_Hitung_Manual1 = Hitung_Harga_Properti_Manual.toString(): null
+
+10-03-2024T23:42:20 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Manual =" + Hasil_Hitung_Manual1): null
+
+10-03-2024T23:42:20 - [TEST_STEP][PASSED] - if (Hasil_Hitung_1 == Hasil_Hitung_Manual1): null
+
+10-03-2024T23:42:20 - [TEST_STEP][PASSED] - (rowNum++): null
+
+10-03-2024T23:42:20 - [TEST_STEP][PASSED] - println("Perhitungan Aplikasi Web (Data Positif)"): null
+
+10-03-2024T23:42:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Positive Data").getValue(1, rowNum)): Text '20000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:42:21 - [MESSAGE][PASSED] - Text '20000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:42:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Positive Data").getValue(2, rowNum)): Text '10000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:42:22 - [MESSAGE][PASSED] - Text '10000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:42:22 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Positive Data").getValue(3, rowNum), true): All options with value '15' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:42:23 - [MESSAGE][PASSED] - All options with value '15' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:42:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Button_Hitung Harga")): Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:42:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:42:24 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 600.000.000'
+
+10-03-2024T23:42:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 600.000.000'
+
+10-03-2024T23:42:35 - [TEST_STEP][PASSED] - takeScreenshot(base_dir + "Hasil Harga Properti (Data Positif)" + rowNum + ".png"): Taking screenshot successfully
+
+10-03-2024T23:42:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)3.png]]
+
+10-03-2024T23:42:36 - [TEST_STEP][PASSED] - Hasil_Hitung_1 = getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 600.000.000'
+
+10-03-2024T23:42:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 600.000.000'
+
+10-03-2024T23:42:36 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Apkikasi =" + Hasil_Hitung_1): null
+
+10-03-2024T23:42:36 - [TEST_STEP][PASSED] - println("Perhitungan Manual (Data Positif)"): null
+
+10-03-2024T23:42:36 - [TEST_STEP][PASSED] - PenghasilanTotal1 = getValue(1, rowNum).toInteger(): null
+
+10-03-2024T23:42:36 - [TEST_STEP][PASSED] - Pengeluaran1 = getValue(2, rowNum).toInteger(): null
+
+10-03-2024T23:42:36 - [TEST_STEP][PASSED] - JangkaWaktu1 = getValue(3, rowNum).toInteger(): null
+
+10-03-2024T23:42:36 - [TEST_STEP][PASSED] - Hitung_Harga_Properti_Manual = PenghasilanTotal1 - Pengeluaran1 * JangkaWaktu1 * 12 / 3: null
+
+10-03-2024T23:42:36 - [TEST_STEP][PASSED] - Hasil_Hitung_Manual1 = Hitung_Harga_Properti_Manual.toString(): null
+
+10-03-2024T23:42:36 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Manual =" + Hasil_Hitung_Manual1): null
+
+10-03-2024T23:42:36 - [TEST_STEP][PASSED] - if (Hasil_Hitung_1 == Hasil_Hitung_Manual1): null
+
+10-03-2024T23:42:36 - [TEST_STEP][PASSED] - (rowNum++): null
+
+10-03-2024T23:42:36 - [TEST_STEP][PASSED] - println("Perhitungan Aplikasi Web (Data Positif)"): null
+
+10-03-2024T23:42:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Positive Data").getValue(1, rowNum)): Text '15000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:42:37 - [MESSAGE][PASSED] - Text '15000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:42:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Positive Data").getValue(2, rowNum)): Text '5000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:42:38 - [MESSAGE][PASSED] - Text '5000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:42:38 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Positive Data").getValue(3, rowNum), true): All options with value '20' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:42:39 - [MESSAGE][PASSED] - All options with value '20' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:42:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Button_Hitung Harga")): Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:42:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:42:40 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 800.000.000'
+
+10-03-2024T23:42:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 800.000.000'
+
+10-03-2024T23:42:44 - [TEST_STEP][PASSED] - takeScreenshot(base_dir + "Hasil Harga Properti (Data Positif)" + rowNum + ".png"): Taking screenshot successfully
+
+10-03-2024T23:42:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)4.png]]
+
+10-03-2024T23:42:44 - [TEST_STEP][PASSED] - Hasil_Hitung_1 = getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 800.000.000'
+
+10-03-2024T23:42:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 800.000.000'
+
+10-03-2024T23:42:45 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Apkikasi =" + Hasil_Hitung_1): null
+
+10-03-2024T23:42:45 - [TEST_STEP][PASSED] - println("Perhitungan Manual (Data Positif)"): null
+
+10-03-2024T23:42:45 - [TEST_STEP][PASSED] - PenghasilanTotal1 = getValue(1, rowNum).toInteger(): null
+
+10-03-2024T23:42:45 - [TEST_STEP][PASSED] - Pengeluaran1 = getValue(2, rowNum).toInteger(): null
+
+10-03-2024T23:42:45 - [TEST_STEP][PASSED] - JangkaWaktu1 = getValue(3, rowNum).toInteger(): null
+
+10-03-2024T23:42:45 - [TEST_STEP][PASSED] - Hitung_Harga_Properti_Manual = PenghasilanTotal1 - Pengeluaran1 * JangkaWaktu1 * 12 / 3: null
+
+10-03-2024T23:42:45 - [TEST_STEP][PASSED] - Hasil_Hitung_Manual1 = Hitung_Harga_Properti_Manual.toString(): null
+
+10-03-2024T23:42:45 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Manual =" + Hasil_Hitung_Manual1): null
+
+10-03-2024T23:42:45 - [TEST_STEP][PASSED] - if (Hasil_Hitung_1 == Hasil_Hitung_Manual1): null
+
+10-03-2024T23:42:45 - [TEST_STEP][PASSED] - (rowNum++): null
+
+10-03-2024T23:42:45 - [TEST_STEP][PASSED] - println("Perhitungan Aplikasi Web (Data Positif)"): null
+
+10-03-2024T23:42:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Positive Data").getValue(1, rowNum)): Text '10000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:42:46 - [MESSAGE][PASSED] - Text '10000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:42:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Positive Data").getValue(2, rowNum)): Text '3000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:42:46 - [MESSAGE][PASSED] - Text '3000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:42:46 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Positive Data").getValue(3, rowNum), true): All options with value '25' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:42:48 - [MESSAGE][PASSED] - All options with value '25' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:42:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Button_Hitung Harga")): Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:42:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:42:48 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 800.000.000'
+
+10-03-2024T23:42:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 800.000.000'
+
+10-03-2024T23:42:59 - [TEST_STEP][PASSED] - takeScreenshot(base_dir + "Hasil Harga Properti (Data Positif)" + rowNum + ".png"): Taking screenshot successfully
+
+10-03-2024T23:42:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)5.png]]
+
+10-03-2024T23:42:59 - [TEST_STEP][PASSED] - Hasil_Hitung_1 = getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 800.000.000'
+
+10-03-2024T23:43:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 800.000.000'
+
+10-03-2024T23:43:00 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Apkikasi =" + Hasil_Hitung_1): null
+
+10-03-2024T23:43:00 - [TEST_STEP][PASSED] - println("Perhitungan Manual (Data Positif)"): null
+
+10-03-2024T23:43:00 - [TEST_STEP][PASSED] - PenghasilanTotal1 = getValue(1, rowNum).toInteger(): null
+
+10-03-2024T23:43:00 - [TEST_STEP][PASSED] - Pengeluaran1 = getValue(2, rowNum).toInteger(): null
+
+10-03-2024T23:43:00 - [TEST_STEP][PASSED] - JangkaWaktu1 = getValue(3, rowNum).toInteger(): null
+
+10-03-2024T23:43:00 - [TEST_STEP][PASSED] - Hitung_Harga_Properti_Manual = PenghasilanTotal1 - Pengeluaran1 * JangkaWaktu1 * 12 / 3: null
+
+10-03-2024T23:43:00 - [TEST_STEP][PASSED] - Hasil_Hitung_Manual1 = Hitung_Harga_Properti_Manual.toString(): null
+
+10-03-2024T23:43:00 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Manual =" + Hasil_Hitung_Manual1): null
+
+10-03-2024T23:43:00 - [TEST_STEP][PASSED] - if (Hasil_Hitung_1 == Hasil_Hitung_Manual1): null
+
+10-03-2024T23:43:00 - [TEST_STEP][PASSED] - (rowNum++): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Hitung Harga Properti (Positive Case)" time="106.484" classname="Test Cases/Hitung Harga Properti (Positive Case)" status="PASSED">
+         <system-out><![CDATA[10-03-2024T23:43:00 - [TEST_CASE][PASSED] - Test Cases/Hitung Harga Properti (Positive Case): Test Cases/Hitung Harga Properti (Positive Case)
+
+10-03-2024T23:43:00 - [TEST_STEP][PASSED] - projectDir = Paths.get(getProjectDir()): null
+
+10-03-2024T23:43:00 - [TEST_STEP][PASSED] - reportDir = projectDir.resolve("Screenshots/Hitung Harga Properti/Positive Case/"): null
+
+10-03-2024T23:43:00 - [TEST_STEP][PASSED] - Files.createDirectories(reportDir): null
+
+10-03-2024T23:43:00 - [TEST_STEP][PASSED] - base_dir = "Screenshots/Hitung Harga Properti/Positive Case/": null
+
+10-03-2024T23:43:00 - [TEST_STEP][PASSED] - for ([rowNum = 1, rowNum <= findTestData("Positive Data").getRowNumbers(), <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>]): null
+
+10-03-2024T23:43:00 - [TEST_STEP][PASSED] - println("Perhitungan Aplikasi Web (Data Positif)"): null
+
+10-03-2024T23:43:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Positive Data").getValue(1, rowNum)): Text '50000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:43:01 - [MESSAGE][PASSED] - Text '50000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:43:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Positive Data").getValue(2, rowNum)): Text '30000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:43:02 - [MESSAGE][PASSED] - Text '30000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:43:02 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Positive Data").getValue(3, rowNum), true): All options with value '25' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:43:03 - [MESSAGE][PASSED] - All options with value '25' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:43:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Button_Hitung Harga")): Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:43:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:43:04 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 2.000.000.000'
+
+10-03-2024T23:43:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 2.000.000.000'
+
+10-03-2024T23:43:04 - [TEST_STEP][PASSED] - takeScreenshot(base_dir + "Hasil Harga Properti (Data Positif)" + rowNum + ".png"): Taking screenshot successfully
+
+10-03-2024T23:43:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)1.png]]
+
+10-03-2024T23:43:05 - [TEST_STEP][PASSED] - Hasil_Hitung_1 = getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 2.000.000.000'
+
+10-03-2024T23:43:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 2.000.000.000'
+
+10-03-2024T23:43:05 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Apkikasi =" + Hasil_Hitung_1): null
+
+10-03-2024T23:43:05 - [TEST_STEP][PASSED] - println("Perhitungan Manual (Data Positif)"): null
+
+10-03-2024T23:43:05 - [TEST_STEP][PASSED] - PenghasilanTotal1 = getValue(1, rowNum).toInteger(): null
+
+10-03-2024T23:43:05 - [TEST_STEP][PASSED] - Pengeluaran1 = getValue(2, rowNum).toInteger(): null
+
+10-03-2024T23:43:05 - [TEST_STEP][PASSED] - JangkaWaktu1 = getValue(3, rowNum).toInteger(): null
+
+10-03-2024T23:43:05 - [TEST_STEP][PASSED] - Hitung_Harga_Properti_Manual = PenghasilanTotal1 - Pengeluaran1 * JangkaWaktu1 * 12 / 3: null
+
+10-03-2024T23:43:05 - [TEST_STEP][PASSED] - Hasil_Hitung_Manual1 = Hitung_Harga_Properti_Manual.toString(): null
+
+10-03-2024T23:43:05 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Manual =" + Hasil_Hitung_Manual1): null
+
+10-03-2024T23:43:05 - [TEST_STEP][PASSED] - if (Hasil_Hitung_1 == Hasil_Hitung_Manual1): null
+
+10-03-2024T23:43:05 - [TEST_STEP][PASSED] - (rowNum++): null
+
+10-03-2024T23:43:05 - [TEST_STEP][PASSED] - println("Perhitungan Aplikasi Web (Data Positif)"): null
+
+10-03-2024T23:43:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Positive Data").getValue(1, rowNum)): Text '50000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:43:06 - [MESSAGE][PASSED] - Text '50000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:43:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Positive Data").getValue(2, rowNum)): Text '20000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:43:07 - [MESSAGE][PASSED] - Text '20000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:43:07 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Positive Data").getValue(3, rowNum), true): All options with value '10' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:43:08 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:43:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Button_Hitung Harga")): Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:43:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:43:09 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 1.200.000.000'
+
+10-03-2024T23:43:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 1.200.000.000'
+
+10-03-2024T23:43:20 - [TEST_STEP][PASSED] - takeScreenshot(base_dir + "Hasil Harga Properti (Data Positif)" + rowNum + ".png"): Taking screenshot successfully
+
+10-03-2024T23:43:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)2.png]]
+
+10-03-2024T23:43:20 - [TEST_STEP][PASSED] - Hasil_Hitung_1 = getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 1.200.000.000'
+
+10-03-2024T23:43:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 1.200.000.000'
+
+10-03-2024T23:43:21 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Apkikasi =" + Hasil_Hitung_1): null
+
+10-03-2024T23:43:21 - [TEST_STEP][PASSED] - println("Perhitungan Manual (Data Positif)"): null
+
+10-03-2024T23:43:21 - [TEST_STEP][PASSED] - PenghasilanTotal1 = getValue(1, rowNum).toInteger(): null
+
+10-03-2024T23:43:21 - [TEST_STEP][PASSED] - Pengeluaran1 = getValue(2, rowNum).toInteger(): null
+
+10-03-2024T23:43:21 - [TEST_STEP][PASSED] - JangkaWaktu1 = getValue(3, rowNum).toInteger(): null
+
+10-03-2024T23:43:21 - [TEST_STEP][PASSED] - Hitung_Harga_Properti_Manual = PenghasilanTotal1 - Pengeluaran1 * JangkaWaktu1 * 12 / 3: null
+
+10-03-2024T23:43:21 - [TEST_STEP][PASSED] - Hasil_Hitung_Manual1 = Hitung_Harga_Properti_Manual.toString(): null
+
+10-03-2024T23:43:21 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Manual =" + Hasil_Hitung_Manual1): null
+
+10-03-2024T23:43:21 - [TEST_STEP][PASSED] - if (Hasil_Hitung_1 == Hasil_Hitung_Manual1): null
+
+10-03-2024T23:43:21 - [TEST_STEP][PASSED] - (rowNum++): null
+
+10-03-2024T23:43:21 - [TEST_STEP][PASSED] - println("Perhitungan Aplikasi Web (Data Positif)"): null
+
+10-03-2024T23:43:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Positive Data").getValue(1, rowNum)): Text '20000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:43:22 - [MESSAGE][PASSED] - Text '20000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:43:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Positive Data").getValue(2, rowNum)): Text '10000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:43:36 - [MESSAGE][PASSED] - Text '10000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:43:36 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Positive Data").getValue(3, rowNum), true): All options with value '15' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:43:37 - [MESSAGE][PASSED] - All options with value '15' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:43:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Button_Hitung Harga")): Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:43:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:43:38 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 600.000.000'
+
+10-03-2024T23:43:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 600.000.000'
+
+10-03-2024T23:43:38 - [TEST_STEP][PASSED] - takeScreenshot(base_dir + "Hasil Harga Properti (Data Positif)" + rowNum + ".png"): Taking screenshot successfully
+
+10-03-2024T23:43:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)3.png]]
+
+10-03-2024T23:43:39 - [TEST_STEP][PASSED] - Hasil_Hitung_1 = getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 600.000.000'
+
+10-03-2024T23:43:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 600.000.000'
+
+10-03-2024T23:43:39 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Apkikasi =" + Hasil_Hitung_1): null
+
+10-03-2024T23:43:39 - [TEST_STEP][PASSED] - println("Perhitungan Manual (Data Positif)"): null
+
+10-03-2024T23:43:39 - [TEST_STEP][PASSED] - PenghasilanTotal1 = getValue(1, rowNum).toInteger(): null
+
+10-03-2024T23:43:39 - [TEST_STEP][PASSED] - Pengeluaran1 = getValue(2, rowNum).toInteger(): null
+
+10-03-2024T23:43:39 - [TEST_STEP][PASSED] - JangkaWaktu1 = getValue(3, rowNum).toInteger(): null
+
+10-03-2024T23:43:39 - [TEST_STEP][PASSED] - Hitung_Harga_Properti_Manual = PenghasilanTotal1 - Pengeluaran1 * JangkaWaktu1 * 12 / 3: null
+
+10-03-2024T23:43:39 - [TEST_STEP][PASSED] - Hasil_Hitung_Manual1 = Hitung_Harga_Properti_Manual.toString(): null
+
+10-03-2024T23:43:39 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Manual =" + Hasil_Hitung_Manual1): null
+
+10-03-2024T23:43:39 - [TEST_STEP][PASSED] - if (Hasil_Hitung_1 == Hasil_Hitung_Manual1): null
+
+10-03-2024T23:43:39 - [TEST_STEP][PASSED] - (rowNum++): null
+
+10-03-2024T23:43:39 - [TEST_STEP][PASSED] - println("Perhitungan Aplikasi Web (Data Positif)"): null
+
+10-03-2024T23:43:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Positive Data").getValue(1, rowNum)): Text '15000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:43:40 - [MESSAGE][PASSED] - Text '15000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:43:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Positive Data").getValue(2, rowNum)): Text '5000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:44:11 - [MESSAGE][PASSED] - Text '5000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:44:11 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Positive Data").getValue(3, rowNum), true): All options with value '20' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:44:12 - [MESSAGE][PASSED] - All options with value '20' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:44:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Button_Hitung Harga")): Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:44:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:44:13 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 800.000.000'
+
+10-03-2024T23:44:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 800.000.000'
+
+10-03-2024T23:44:35 - [TEST_STEP][PASSED] - takeScreenshot(base_dir + "Hasil Harga Properti (Data Positif)" + rowNum + ".png"): Taking screenshot successfully
+
+10-03-2024T23:44:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)4.png]]
+
+10-03-2024T23:44:35 - [TEST_STEP][PASSED] - Hasil_Hitung_1 = getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 800.000.000'
+
+10-03-2024T23:44:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 800.000.000'
+
+10-03-2024T23:44:35 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Apkikasi =" + Hasil_Hitung_1): null
+
+10-03-2024T23:44:35 - [TEST_STEP][PASSED] - println("Perhitungan Manual (Data Positif)"): null
+
+10-03-2024T23:44:35 - [TEST_STEP][PASSED] - PenghasilanTotal1 = getValue(1, rowNum).toInteger(): null
+
+10-03-2024T23:44:35 - [TEST_STEP][PASSED] - Pengeluaran1 = getValue(2, rowNum).toInteger(): null
+
+10-03-2024T23:44:35 - [TEST_STEP][PASSED] - JangkaWaktu1 = getValue(3, rowNum).toInteger(): null
+
+10-03-2024T23:44:35 - [TEST_STEP][PASSED] - Hitung_Harga_Properti_Manual = PenghasilanTotal1 - Pengeluaran1 * JangkaWaktu1 * 12 / 3: null
+
+10-03-2024T23:44:35 - [TEST_STEP][PASSED] - Hasil_Hitung_Manual1 = Hitung_Harga_Properti_Manual.toString(): null
+
+10-03-2024T23:44:35 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Manual =" + Hasil_Hitung_Manual1): null
+
+10-03-2024T23:44:35 - [TEST_STEP][PASSED] - if (Hasil_Hitung_1 == Hasil_Hitung_Manual1): null
+
+10-03-2024T23:44:35 - [TEST_STEP][PASSED] - (rowNum++): null
+
+10-03-2024T23:44:35 - [TEST_STEP][PASSED] - println("Perhitungan Aplikasi Web (Data Positif)"): null
+
+10-03-2024T23:44:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Positive Data").getValue(1, rowNum)): Text '10000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:44:36 - [MESSAGE][PASSED] - Text '10000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:44:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Positive Data").getValue(2, rowNum)): Text '3000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:44:37 - [MESSAGE][PASSED] - Text '3000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:44:37 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Positive Data").getValue(3, rowNum), true): All options with value '25' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:44:39 - [MESSAGE][PASSED] - All options with value '25' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:44:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Button_Hitung Harga")): Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:44:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:44:39 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 700.000.000'
+
+10-03-2024T23:44:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 700.000.000'
+
+10-03-2024T23:44:45 - [TEST_STEP][PASSED] - takeScreenshot(base_dir + "Hasil Harga Properti (Data Positif)" + rowNum + ".png"): Taking screenshot successfully
+
+10-03-2024T23:44:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)5.png]]
+
+10-03-2024T23:44:46 - [TEST_STEP][PASSED] - Hasil_Hitung_1 = getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 700.000.000'
+
+10-03-2024T23:44:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 700.000.000'
+
+10-03-2024T23:44:46 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Apkikasi =" + Hasil_Hitung_1): null
+
+10-03-2024T23:44:46 - [TEST_STEP][PASSED] - println("Perhitungan Manual (Data Positif)"): null
+
+10-03-2024T23:44:46 - [TEST_STEP][PASSED] - PenghasilanTotal1 = getValue(1, rowNum).toInteger(): null
+
+10-03-2024T23:44:46 - [TEST_STEP][PASSED] - Pengeluaran1 = getValue(2, rowNum).toInteger(): null
+
+10-03-2024T23:44:46 - [TEST_STEP][PASSED] - JangkaWaktu1 = getValue(3, rowNum).toInteger(): null
+
+10-03-2024T23:44:46 - [TEST_STEP][PASSED] - Hitung_Harga_Properti_Manual = PenghasilanTotal1 - Pengeluaran1 * JangkaWaktu1 * 12 / 3: null
+
+10-03-2024T23:44:46 - [TEST_STEP][PASSED] - Hasil_Hitung_Manual1 = Hitung_Harga_Properti_Manual.toString(): null
+
+10-03-2024T23:44:46 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Manual =" + Hasil_Hitung_Manual1): null
+
+10-03-2024T23:44:46 - [TEST_STEP][PASSED] - if (Hasil_Hitung_1 == Hasil_Hitung_Manual1): null
+
+10-03-2024T23:44:46 - [TEST_STEP][PASSED] - (rowNum++): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Hitung Harga Properti (Positive Case)" time="56.24" classname="Test Cases/Hitung Harga Properti (Positive Case)" status="PASSED">
+         <system-out><![CDATA[10-03-2024T23:44:46 - [TEST_CASE][PASSED] - Test Cases/Hitung Harga Properti (Positive Case): Test Cases/Hitung Harga Properti (Positive Case)
+
+10-03-2024T23:44:46 - [TEST_STEP][PASSED] - projectDir = Paths.get(getProjectDir()): null
+
+10-03-2024T23:44:46 - [TEST_STEP][PASSED] - reportDir = projectDir.resolve("Screenshots/Hitung Harga Properti/Positive Case/"): null
+
+10-03-2024T23:44:46 - [TEST_STEP][PASSED] - Files.createDirectories(reportDir): null
+
+10-03-2024T23:44:46 - [TEST_STEP][PASSED] - base_dir = "Screenshots/Hitung Harga Properti/Positive Case/": null
+
+10-03-2024T23:44:46 - [TEST_STEP][PASSED] - for ([rowNum = 1, rowNum <= findTestData("Positive Data").getRowNumbers(), <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>]): null
+
+10-03-2024T23:44:46 - [TEST_STEP][PASSED] - println("Perhitungan Aplikasi Web (Data Positif)"): null
+
+10-03-2024T23:44:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Positive Data").getValue(1, rowNum)): Text '50000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:44:47 - [MESSAGE][PASSED] - Text '50000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:44:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Positive Data").getValue(2, rowNum)): Text '30000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:44:48 - [MESSAGE][PASSED] - Text '30000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:44:48 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Positive Data").getValue(3, rowNum), true): All options with value '25' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:44:50 - [MESSAGE][PASSED] - All options with value '25' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:44:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Button_Hitung Harga")): Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:44:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:44:50 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 700.000.000'
+
+10-03-2024T23:44:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 700.000.000'
+
+10-03-2024T23:44:59 - [TEST_STEP][PASSED] - takeScreenshot(base_dir + "Hasil Harga Properti (Data Positif)" + rowNum + ".png"): Taking screenshot successfully
+
+10-03-2024T23:45:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)1.png]]
+
+10-03-2024T23:45:00 - [TEST_STEP][PASSED] - Hasil_Hitung_1 = getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 700.000.000'
+
+10-03-2024T23:45:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 700.000.000'
+
+10-03-2024T23:45:00 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Apkikasi =" + Hasil_Hitung_1): null
+
+10-03-2024T23:45:00 - [TEST_STEP][PASSED] - println("Perhitungan Manual (Data Positif)"): null
+
+10-03-2024T23:45:00 - [TEST_STEP][PASSED] - PenghasilanTotal1 = getValue(1, rowNum).toInteger(): null
+
+10-03-2024T23:45:00 - [TEST_STEP][PASSED] - Pengeluaran1 = getValue(2, rowNum).toInteger(): null
+
+10-03-2024T23:45:00 - [TEST_STEP][PASSED] - JangkaWaktu1 = getValue(3, rowNum).toInteger(): null
+
+10-03-2024T23:45:00 - [TEST_STEP][PASSED] - Hitung_Harga_Properti_Manual = PenghasilanTotal1 - Pengeluaran1 * JangkaWaktu1 * 12 / 3: null
+
+10-03-2024T23:45:00 - [TEST_STEP][PASSED] - Hasil_Hitung_Manual1 = Hitung_Harga_Properti_Manual.toString(): null
+
+10-03-2024T23:45:00 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Manual =" + Hasil_Hitung_Manual1): null
+
+10-03-2024T23:45:00 - [TEST_STEP][PASSED] - if (Hasil_Hitung_1 == Hasil_Hitung_Manual1): null
+
+10-03-2024T23:45:00 - [TEST_STEP][PASSED] - (rowNum++): null
+
+10-03-2024T23:45:00 - [TEST_STEP][PASSED] - println("Perhitungan Aplikasi Web (Data Positif)"): null
+
+10-03-2024T23:45:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Positive Data").getValue(1, rowNum)): Text '50000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:45:01 - [MESSAGE][PASSED] - Text '50000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:45:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Positive Data").getValue(2, rowNum)): Text '20000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:45:02 - [MESSAGE][PASSED] - Text '20000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:45:02 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Positive Data").getValue(3, rowNum), true): All options with value '10' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:45:03 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:45:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Button_Hitung Harga")): Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:45:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:45:04 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 1.200.000.000'
+
+10-03-2024T23:45:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 1.200.000.000'
+
+10-03-2024T23:45:05 - [TEST_STEP][PASSED] - takeScreenshot(base_dir + "Hasil Harga Properti (Data Positif)" + rowNum + ".png"): Taking screenshot successfully
+
+10-03-2024T23:45:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)2.png]]
+
+10-03-2024T23:45:05 - [TEST_STEP][PASSED] - Hasil_Hitung_1 = getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 1.200.000.000'
+
+10-03-2024T23:45:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 1.200.000.000'
+
+10-03-2024T23:45:05 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Apkikasi =" + Hasil_Hitung_1): null
+
+10-03-2024T23:45:05 - [TEST_STEP][PASSED] - println("Perhitungan Manual (Data Positif)"): null
+
+10-03-2024T23:45:05 - [TEST_STEP][PASSED] - PenghasilanTotal1 = getValue(1, rowNum).toInteger(): null
+
+10-03-2024T23:45:05 - [TEST_STEP][PASSED] - Pengeluaran1 = getValue(2, rowNum).toInteger(): null
+
+10-03-2024T23:45:05 - [TEST_STEP][PASSED] - JangkaWaktu1 = getValue(3, rowNum).toInteger(): null
+
+10-03-2024T23:45:05 - [TEST_STEP][PASSED] - Hitung_Harga_Properti_Manual = PenghasilanTotal1 - Pengeluaran1 * JangkaWaktu1 * 12 / 3: null
+
+10-03-2024T23:45:05 - [TEST_STEP][PASSED] - Hasil_Hitung_Manual1 = Hitung_Harga_Properti_Manual.toString(): null
+
+10-03-2024T23:45:05 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Manual =" + Hasil_Hitung_Manual1): null
+
+10-03-2024T23:45:05 - [TEST_STEP][PASSED] - if (Hasil_Hitung_1 == Hasil_Hitung_Manual1): null
+
+10-03-2024T23:45:05 - [TEST_STEP][PASSED] - (rowNum++): null
+
+10-03-2024T23:45:05 - [TEST_STEP][PASSED] - println("Perhitungan Aplikasi Web (Data Positif)"): null
+
+10-03-2024T23:45:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Positive Data").getValue(1, rowNum)): Text '20000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:45:06 - [MESSAGE][PASSED] - Text '20000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:45:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Positive Data").getValue(2, rowNum)): Text '10000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:45:08 - [MESSAGE][PASSED] - Text '10000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:45:08 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Positive Data").getValue(3, rowNum), true): All options with value '15' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:45:09 - [MESSAGE][PASSED] - All options with value '15' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:45:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Button_Hitung Harga")): Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:45:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:45:10 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 600.000.000'
+
+10-03-2024T23:45:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 600.000.000'
+
+10-03-2024T23:45:11 - [TEST_STEP][PASSED] - takeScreenshot(base_dir + "Hasil Harga Properti (Data Positif)" + rowNum + ".png"): Taking screenshot successfully
+
+10-03-2024T23:45:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)3.png]]
+
+10-03-2024T23:45:11 - [TEST_STEP][PASSED] - Hasil_Hitung_1 = getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 600.000.000'
+
+10-03-2024T23:45:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 600.000.000'
+
+10-03-2024T23:45:12 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Apkikasi =" + Hasil_Hitung_1): null
+
+10-03-2024T23:45:12 - [TEST_STEP][PASSED] - println("Perhitungan Manual (Data Positif)"): null
+
+10-03-2024T23:45:12 - [TEST_STEP][PASSED] - PenghasilanTotal1 = getValue(1, rowNum).toInteger(): null
+
+10-03-2024T23:45:12 - [TEST_STEP][PASSED] - Pengeluaran1 = getValue(2, rowNum).toInteger(): null
+
+10-03-2024T23:45:12 - [TEST_STEP][PASSED] - JangkaWaktu1 = getValue(3, rowNum).toInteger(): null
+
+10-03-2024T23:45:12 - [TEST_STEP][PASSED] - Hitung_Harga_Properti_Manual = PenghasilanTotal1 - Pengeluaran1 * JangkaWaktu1 * 12 / 3: null
+
+10-03-2024T23:45:12 - [TEST_STEP][PASSED] - Hasil_Hitung_Manual1 = Hitung_Harga_Properti_Manual.toString(): null
+
+10-03-2024T23:45:12 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Manual =" + Hasil_Hitung_Manual1): null
+
+10-03-2024T23:45:12 - [TEST_STEP][PASSED] - if (Hasil_Hitung_1 == Hasil_Hitung_Manual1): null
+
+10-03-2024T23:45:12 - [TEST_STEP][PASSED] - (rowNum++): null
+
+10-03-2024T23:45:12 - [TEST_STEP][PASSED] - println("Perhitungan Aplikasi Web (Data Positif)"): null
+
+10-03-2024T23:45:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Positive Data").getValue(1, rowNum)): Text '15000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:45:13 - [MESSAGE][PASSED] - Text '15000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:45:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Positive Data").getValue(2, rowNum)): Text '5000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:45:13 - [MESSAGE][PASSED] - Text '5000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:45:13 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Positive Data").getValue(3, rowNum), true): All options with value '20' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:45:15 - [MESSAGE][PASSED] - All options with value '20' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:45:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Button_Hitung Harga")): Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:45:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:45:15 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 800.000.000'
+
+10-03-2024T23:45:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 800.000.000'
+
+10-03-2024T23:45:16 - [TEST_STEP][PASSED] - takeScreenshot(base_dir + "Hasil Harga Properti (Data Positif)" + rowNum + ".png"): Taking screenshot successfully
+
+10-03-2024T23:45:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)4.png]]
+
+10-03-2024T23:45:26 - [TEST_STEP][PASSED] - Hasil_Hitung_1 = getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 800.000.000'
+
+10-03-2024T23:45:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 800.000.000'
+
+10-03-2024T23:45:27 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Apkikasi =" + Hasil_Hitung_1): null
+
+10-03-2024T23:45:27 - [TEST_STEP][PASSED] - println("Perhitungan Manual (Data Positif)"): null
+
+10-03-2024T23:45:27 - [TEST_STEP][PASSED] - PenghasilanTotal1 = getValue(1, rowNum).toInteger(): null
+
+10-03-2024T23:45:27 - [TEST_STEP][PASSED] - Pengeluaran1 = getValue(2, rowNum).toInteger(): null
+
+10-03-2024T23:45:27 - [TEST_STEP][PASSED] - JangkaWaktu1 = getValue(3, rowNum).toInteger(): null
+
+10-03-2024T23:45:27 - [TEST_STEP][PASSED] - Hitung_Harga_Properti_Manual = PenghasilanTotal1 - Pengeluaran1 * JangkaWaktu1 * 12 / 3: null
+
+10-03-2024T23:45:27 - [TEST_STEP][PASSED] - Hasil_Hitung_Manual1 = Hitung_Harga_Properti_Manual.toString(): null
+
+10-03-2024T23:45:27 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Manual =" + Hasil_Hitung_Manual1): null
+
+10-03-2024T23:45:27 - [TEST_STEP][PASSED] - if (Hasil_Hitung_1 == Hasil_Hitung_Manual1): null
+
+10-03-2024T23:45:27 - [TEST_STEP][PASSED] - (rowNum++): null
+
+10-03-2024T23:45:27 - [TEST_STEP][PASSED] - println("Perhitungan Aplikasi Web (Data Positif)"): null
+
+10-03-2024T23:45:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Positive Data").getValue(1, rowNum)): Text '10000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:45:27 - [MESSAGE][PASSED] - Text '10000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:45:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Positive Data").getValue(2, rowNum)): Text '3000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:45:28 - [MESSAGE][PASSED] - Text '3000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:45:28 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Positive Data").getValue(3, rowNum), true): All options with value '25' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:45:30 - [MESSAGE][PASSED] - All options with value '25' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:45:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Button_Hitung Harga")): Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:45:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:45:30 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 700.000.000'
+
+10-03-2024T23:45:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 700.000.000'
+
+10-03-2024T23:45:42 - [TEST_STEP][PASSED] - takeScreenshot(base_dir + "Hasil Harga Properti (Data Positif)" + rowNum + ".png"): Taking screenshot successfully
+
+10-03-2024T23:45:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)5.png]]
+
+10-03-2024T23:45:42 - [TEST_STEP][PASSED] - Hasil_Hitung_1 = getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 700.000.000'
+
+10-03-2024T23:45:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 700.000.000'
+
+10-03-2024T23:45:42 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Apkikasi =" + Hasil_Hitung_1): null
+
+10-03-2024T23:45:42 - [TEST_STEP][PASSED] - println("Perhitungan Manual (Data Positif)"): null
+
+10-03-2024T23:45:42 - [TEST_STEP][PASSED] - PenghasilanTotal1 = getValue(1, rowNum).toInteger(): null
+
+10-03-2024T23:45:42 - [TEST_STEP][PASSED] - Pengeluaran1 = getValue(2, rowNum).toInteger(): null
+
+10-03-2024T23:45:43 - [TEST_STEP][PASSED] - JangkaWaktu1 = getValue(3, rowNum).toInteger(): null
+
+10-03-2024T23:45:43 - [TEST_STEP][PASSED] - Hitung_Harga_Properti_Manual = PenghasilanTotal1 - Pengeluaran1 * JangkaWaktu1 * 12 / 3: null
+
+10-03-2024T23:45:43 - [TEST_STEP][PASSED] - Hasil_Hitung_Manual1 = Hitung_Harga_Properti_Manual.toString(): null
+
+10-03-2024T23:45:43 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Manual =" + Hasil_Hitung_Manual1): null
+
+10-03-2024T23:45:43 - [TEST_STEP][PASSED] - if (Hasil_Hitung_1 == Hasil_Hitung_Manual1): null
+
+10-03-2024T23:45:43 - [TEST_STEP][PASSED] - (rowNum++): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Hitung Harga Properti (Positive Case)" time="101.747" classname="Test Cases/Hitung Harga Properti (Positive Case)" status="PASSED">
+         <system-out><![CDATA[10-03-2024T23:45:43 - [TEST_CASE][PASSED] - Test Cases/Hitung Harga Properti (Positive Case): Test Cases/Hitung Harga Properti (Positive Case)
+
+10-03-2024T23:45:43 - [TEST_STEP][PASSED] - projectDir = Paths.get(getProjectDir()): null
+
+10-03-2024T23:45:43 - [TEST_STEP][PASSED] - reportDir = projectDir.resolve("Screenshots/Hitung Harga Properti/Positive Case/"): null
+
+10-03-2024T23:45:43 - [TEST_STEP][PASSED] - Files.createDirectories(reportDir): null
+
+10-03-2024T23:45:43 - [TEST_STEP][PASSED] - base_dir = "Screenshots/Hitung Harga Properti/Positive Case/": null
+
+10-03-2024T23:45:43 - [TEST_STEP][PASSED] - for ([rowNum = 1, rowNum <= findTestData("Positive Data").getRowNumbers(), <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>]): null
+
+10-03-2024T23:45:43 - [TEST_STEP][PASSED] - println("Perhitungan Aplikasi Web (Data Positif)"): null
+
+10-03-2024T23:45:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Positive Data").getValue(1, rowNum)): Text '50000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:45:44 - [MESSAGE][PASSED] - Text '50000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:45:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Positive Data").getValue(2, rowNum)): Text '30000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:45:44 - [MESSAGE][PASSED] - Text '30000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:45:44 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Positive Data").getValue(3, rowNum), true): All options with value '25' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:45:46 - [MESSAGE][PASSED] - All options with value '25' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:45:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Button_Hitung Harga")): Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:45:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:45:46 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 2.000.000.000'
+
+10-03-2024T23:45:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 2.000.000.000'
+
+10-03-2024T23:45:47 - [TEST_STEP][PASSED] - takeScreenshot(base_dir + "Hasil Harga Properti (Data Positif)" + rowNum + ".png"): Taking screenshot successfully
+
+10-03-2024T23:45:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)1.png]]
+
+10-03-2024T23:45:48 - [TEST_STEP][PASSED] - Hasil_Hitung_1 = getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 2.000.000.000'
+
+10-03-2024T23:45:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 2.000.000.000'
+
+10-03-2024T23:45:48 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Apkikasi =" + Hasil_Hitung_1): null
+
+10-03-2024T23:45:48 - [TEST_STEP][PASSED] - println("Perhitungan Manual (Data Positif)"): null
+
+10-03-2024T23:45:48 - [TEST_STEP][PASSED] - PenghasilanTotal1 = getValue(1, rowNum).toInteger(): null
+
+10-03-2024T23:45:48 - [TEST_STEP][PASSED] - Pengeluaran1 = getValue(2, rowNum).toInteger(): null
+
+10-03-2024T23:45:48 - [TEST_STEP][PASSED] - JangkaWaktu1 = getValue(3, rowNum).toInteger(): null
+
+10-03-2024T23:45:48 - [TEST_STEP][PASSED] - Hitung_Harga_Properti_Manual = PenghasilanTotal1 - Pengeluaran1 * JangkaWaktu1 * 12 / 3: null
+
+10-03-2024T23:45:48 - [TEST_STEP][PASSED] - Hasil_Hitung_Manual1 = Hitung_Harga_Properti_Manual.toString(): null
+
+10-03-2024T23:45:48 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Manual =" + Hasil_Hitung_Manual1): null
+
+10-03-2024T23:45:48 - [TEST_STEP][PASSED] - if (Hasil_Hitung_1 == Hasil_Hitung_Manual1): null
+
+10-03-2024T23:45:48 - [TEST_STEP][PASSED] - (rowNum++): null
+
+10-03-2024T23:45:48 - [TEST_STEP][PASSED] - println("Perhitungan Aplikasi Web (Data Positif)"): null
+
+10-03-2024T23:45:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Positive Data").getValue(1, rowNum)): Text '50000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:45:49 - [MESSAGE][PASSED] - Text '50000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:45:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Positive Data").getValue(2, rowNum)): Text '20000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:45:50 - [MESSAGE][PASSED] - Text '20000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:45:50 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Positive Data").getValue(3, rowNum), true): All options with value '10' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:45:52 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:45:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Button_Hitung Harga")): Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:45:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:45:52 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 1.200.000.000'
+
+10-03-2024T23:45:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 1.200.000.000'
+
+10-03-2024T23:45:53 - [TEST_STEP][PASSED] - takeScreenshot(base_dir + "Hasil Harga Properti (Data Positif)" + rowNum + ".png"): Taking screenshot successfully
+
+10-03-2024T23:45:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)2.png]]
+
+10-03-2024T23:45:53 - [TEST_STEP][PASSED] - Hasil_Hitung_1 = getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 1.200.000.000'
+
+10-03-2024T23:45:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 1.200.000.000'
+
+10-03-2024T23:45:54 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Apkikasi =" + Hasil_Hitung_1): null
+
+10-03-2024T23:45:54 - [TEST_STEP][PASSED] - println("Perhitungan Manual (Data Positif)"): null
+
+10-03-2024T23:45:54 - [TEST_STEP][PASSED] - PenghasilanTotal1 = getValue(1, rowNum).toInteger(): null
+
+10-03-2024T23:45:54 - [TEST_STEP][PASSED] - Pengeluaran1 = getValue(2, rowNum).toInteger(): null
+
+10-03-2024T23:45:54 - [TEST_STEP][PASSED] - JangkaWaktu1 = getValue(3, rowNum).toInteger(): null
+
+10-03-2024T23:45:54 - [TEST_STEP][PASSED] - Hitung_Harga_Properti_Manual = PenghasilanTotal1 - Pengeluaran1 * JangkaWaktu1 * 12 / 3: null
+
+10-03-2024T23:45:54 - [TEST_STEP][PASSED] - Hasil_Hitung_Manual1 = Hitung_Harga_Properti_Manual.toString(): null
+
+10-03-2024T23:45:54 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Manual =" + Hasil_Hitung_Manual1): null
+
+10-03-2024T23:45:54 - [TEST_STEP][PASSED] - if (Hasil_Hitung_1 == Hasil_Hitung_Manual1): null
+
+10-03-2024T23:45:54 - [TEST_STEP][PASSED] - (rowNum++): null
+
+10-03-2024T23:45:54 - [TEST_STEP][PASSED] - println("Perhitungan Aplikasi Web (Data Positif)"): null
+
+10-03-2024T23:45:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Positive Data").getValue(1, rowNum)): Text '20000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:45:54 - [MESSAGE][PASSED] - Text '20000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:45:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Positive Data").getValue(2, rowNum)): Text '10000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:46:03 - [MESSAGE][PASSED] - Text '10000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:46:03 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Positive Data").getValue(3, rowNum), true): All options with value '15' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:46:05 - [MESSAGE][PASSED] - All options with value '15' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:46:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Button_Hitung Harga")): Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:46:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:46:05 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 600.000.000'
+
+10-03-2024T23:46:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 600.000.000'
+
+10-03-2024T23:46:06 - [TEST_STEP][PASSED] - takeScreenshot(base_dir + "Hasil Harga Properti (Data Positif)" + rowNum + ".png"): Taking screenshot successfully
+
+10-03-2024T23:46:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)3.png]]
+
+10-03-2024T23:46:06 - [TEST_STEP][PASSED] - Hasil_Hitung_1 = getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 600.000.000'
+
+10-03-2024T23:46:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 600.000.000'
+
+10-03-2024T23:46:07 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Apkikasi =" + Hasil_Hitung_1): null
+
+10-03-2024T23:46:07 - [TEST_STEP][PASSED] - println("Perhitungan Manual (Data Positif)"): null
+
+10-03-2024T23:46:07 - [TEST_STEP][PASSED] - PenghasilanTotal1 = getValue(1, rowNum).toInteger(): null
+
+10-03-2024T23:46:07 - [TEST_STEP][PASSED] - Pengeluaran1 = getValue(2, rowNum).toInteger(): null
+
+10-03-2024T23:46:07 - [TEST_STEP][PASSED] - JangkaWaktu1 = getValue(3, rowNum).toInteger(): null
+
+10-03-2024T23:46:07 - [TEST_STEP][PASSED] - Hitung_Harga_Properti_Manual = PenghasilanTotal1 - Pengeluaran1 * JangkaWaktu1 * 12 / 3: null
+
+10-03-2024T23:46:07 - [TEST_STEP][PASSED] - Hasil_Hitung_Manual1 = Hitung_Harga_Properti_Manual.toString(): null
+
+10-03-2024T23:46:07 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Manual =" + Hasil_Hitung_Manual1): null
+
+10-03-2024T23:46:07 - [TEST_STEP][PASSED] - if (Hasil_Hitung_1 == Hasil_Hitung_Manual1): null
+
+10-03-2024T23:46:07 - [TEST_STEP][PASSED] - (rowNum++): null
+
+10-03-2024T23:46:07 - [TEST_STEP][PASSED] - println("Perhitungan Aplikasi Web (Data Positif)"): null
+
+10-03-2024T23:46:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Positive Data").getValue(1, rowNum)): Text '15000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:46:08 - [MESSAGE][PASSED] - Text '15000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:46:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Positive Data").getValue(2, rowNum)): Text '5000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:47:04 - [MESSAGE][PASSED] - Text '5000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:47:04 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Positive Data").getValue(3, rowNum), true): All options with value '20' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:47:06 - [MESSAGE][PASSED] - All options with value '20' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:47:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Button_Hitung Harga")): Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:47:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:47:06 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 800.000.000'
+
+10-03-2024T23:47:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 800.000.000'
+
+10-03-2024T23:47:18 - [TEST_STEP][PASSED] - takeScreenshot(base_dir + "Hasil Harga Properti (Data Positif)" + rowNum + ".png"): Taking screenshot successfully
+
+10-03-2024T23:47:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)4.png]]
+
+10-03-2024T23:47:18 - [TEST_STEP][PASSED] - Hasil_Hitung_1 = getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 800.000.000'
+
+10-03-2024T23:47:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 800.000.000'
+
+10-03-2024T23:47:19 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Apkikasi =" + Hasil_Hitung_1): null
+
+10-03-2024T23:47:19 - [TEST_STEP][PASSED] - println("Perhitungan Manual (Data Positif)"): null
+
+10-03-2024T23:47:19 - [TEST_STEP][PASSED] - PenghasilanTotal1 = getValue(1, rowNum).toInteger(): null
+
+10-03-2024T23:47:19 - [TEST_STEP][PASSED] - Pengeluaran1 = getValue(2, rowNum).toInteger(): null
+
+10-03-2024T23:47:19 - [TEST_STEP][PASSED] - JangkaWaktu1 = getValue(3, rowNum).toInteger(): null
+
+10-03-2024T23:47:19 - [TEST_STEP][PASSED] - Hitung_Harga_Properti_Manual = PenghasilanTotal1 - Pengeluaran1 * JangkaWaktu1 * 12 / 3: null
+
+10-03-2024T23:47:19 - [TEST_STEP][PASSED] - Hasil_Hitung_Manual1 = Hitung_Harga_Properti_Manual.toString(): null
+
+10-03-2024T23:47:19 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Manual =" + Hasil_Hitung_Manual1): null
+
+10-03-2024T23:47:19 - [TEST_STEP][PASSED] - if (Hasil_Hitung_1 == Hasil_Hitung_Manual1): null
+
+10-03-2024T23:47:19 - [TEST_STEP][PASSED] - (rowNum++): null
+
+10-03-2024T23:47:19 - [TEST_STEP][PASSED] - println("Perhitungan Aplikasi Web (Data Positif)"): null
+
+10-03-2024T23:47:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Positive Data").getValue(1, rowNum)): Text '10000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:47:19 - [MESSAGE][PASSED] - Text '10000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+10-03-2024T23:47:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Positive Data").getValue(2, rowNum)): Text '3000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:47:21 - [MESSAGE][PASSED] - Text '3000000' is set on object 'Object Repository/Input Pengeluaran'
+
+10-03-2024T23:47:21 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Positive Data").getValue(3, rowNum), true): All options with value '25' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:47:22 - [MESSAGE][PASSED] - All options with value '25' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+10-03-2024T23:47:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Button_Hitung Harga")): Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:47:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+10-03-2024T23:47:23 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 700.000.000'
+
+10-03-2024T23:47:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 700.000.000'
+
+10-03-2024T23:47:24 - [TEST_STEP][PASSED] - takeScreenshot(base_dir + "Hasil Harga Properti (Data Positif)" + rowNum + ".png"): Taking screenshot successfully
+
+10-03-2024T23:47:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\Katalon Studio\\Hitung Harga Properti\\Reports\\20240310_233608\\Hitung Harga Properti (Positif)\\20240310_233608\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)5.png]]
+
+10-03-2024T23:47:24 - [TEST_STEP][PASSED] - Hasil_Hitung_1 = getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 700.000.000'
+
+10-03-2024T23:47:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 700.000.000'
+
+10-03-2024T23:47:24 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Apkikasi =" + Hasil_Hitung_1): null
+
+10-03-2024T23:47:24 - [TEST_STEP][PASSED] - println("Perhitungan Manual (Data Positif)"): null
+
+10-03-2024T23:47:24 - [TEST_STEP][PASSED] - PenghasilanTotal1 = getValue(1, rowNum).toInteger(): null
+
+10-03-2024T23:47:24 - [TEST_STEP][PASSED] - Pengeluaran1 = getValue(2, rowNum).toInteger(): null
+
+10-03-2024T23:47:24 - [TEST_STEP][PASSED] - JangkaWaktu1 = getValue(3, rowNum).toInteger(): null
+
+10-03-2024T23:47:24 - [TEST_STEP][PASSED] - Hitung_Harga_Properti_Manual = PenghasilanTotal1 - Pengeluaran1 * JangkaWaktu1 * 12 / 3: null
+
+10-03-2024T23:47:24 - [TEST_STEP][PASSED] - Hasil_Hitung_Manual1 = Hitung_Harga_Properti_Manual.toString(): null
+
+10-03-2024T23:47:24 - [TEST_STEP][PASSED] - println("++++ Hasil Hitung Harga Properti Manual =" + Hasil_Hitung_Manual1): null
+
+10-03-2024T23:47:24 - [TEST_STEP][PASSED] - if (Hasil_Hitung_1 == Hasil_Hitung_Manual1): null
+
+10-03-2024T23:47:24 - [TEST_STEP][PASSED] - (rowNum++): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[10-03-2024T23:39:40 - [TEST_SUITE][PASSED] - Hitung Harga Properti (Positif): Test Cases/Hitung Harga Properti (Positive Case)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
