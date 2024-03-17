@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
    <description></description>
-   <name>My First Web UI Project</name>
+   <name>Hitung Harga Properti</name>
    <tag></tag>
    <UUID>073c5a74-93e3-4b18-9a88-0068e4a8511d</UUID>
    <createdVersion>9.3.1</createdVersion>
@@ -9,7 +9,7 @@
    <migratedVersion>5.9.0</migratedVersion>
    <modifiedVersion>9.3.1</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>G:\Katalon Studio\Hitung Harga Properti\Hitung Harga Properti.prj</projectFileLocation>
+   <projectFileLocation>C:\Users\ASUS\Documents\Hitung Harga Properti\Hitung Harga Properti\Hitung Harga Properti.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
