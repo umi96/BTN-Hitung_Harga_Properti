@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Hitung Harga Properti" time="185.831" tests="2" failures="0" errors="0">
+   <testsuite name="Hitung Harga Properti" tests="2" failures="0" errors="0" time="185.831" skipped="0" timestamp="17-03-2024T23:53:19" hostname="ASUS - DESKTOP-GVGR56C" id="Test Suites/Hitung Harga Properti">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\Documents\\Hitung Harga Properti\\Hitung Harga Properti\\Reports\\20240317_235307\\Hitung Harga Properti\\20240317_235307"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\Documents\\Hitung Harga Properti\\Hitung Harga Properti\\Reports\\20240317_235307\\Hitung Harga Properti\\20240317_235307\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ASUS\\Documents\\Hitung Harga Properti\\Hitung Harga Properti\\Reports\\20240317_235307\\Hitung Harga Properti\\20240317_235307\\1710694501658.png, C:\\Users\\ASUS\\Documents\\Hitung Harga Properti\\Hitung Harga Properti\\Reports\\20240317_235307\\Hitung Harga Properti\\20240317_235307\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)1.png, C:\\Users\\ASUS\\Documents\\Hitung Harga Properti\\Hitung Harga Properti\\Reports\\20240317_235307\\Hitung Harga Properti\\20240317_235307\\1710694516043.png, C:\\Users\\ASUS\\Documents\\Hitung Harga Properti\\Hitung Harga Properti\\Reports\\20240317_235307\\Hitung Harga Properti\\20240317_235307\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)2.png, C:\\Users\\ASUS\\Documents\\Hitung Harga Properti\\Hitung Harga Properti\\Reports\\20240317_235307\\Hitung Harga Properti\\20240317_235307\\1710694528433.png, C:\\Users\\ASUS\\Documents\\Hitung Harga Properti\\Hitung Harga Properti\\Reports\\20240317_235307\\Hitung Harga Properti\\20240317_235307\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)3.png, C:\\Users\\ASUS\\Documents\\Hitung Harga Properti\\Hitung Harga Properti\\Reports\\20240317_235307\\Hitung Harga Properti\\20240317_235307\\1710694543304.png, C:\\Users\\ASUS\\Documents\\Hitung Harga Properti\\Hitung Harga Properti\\Reports\\20240317_235307\\Hitung Harga Properti\\20240317_235307\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)4.png, C:\\Users\\ASUS\\Documents\\Hitung Harga Properti\\Hitung Harga Properti\\Reports\\20240317_235307\\Hitung Harga Properti\\20240317_235307\\1710694555965.png, C:\\Users\\ASUS\\Documents\\Hitung Harga Properti\\Hitung Harga Properti\\Reports\\20240317_235307\\Hitung Harga Properti\\20240317_235307\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)5.png, C:\\Users\\ASUS\\Documents\\Hitung Harga Properti\\Hitung Harga Properti\\Reports\\20240317_235307\\Hitung Harga Properti\\20240317_235307\\1710694568657.png, C:\\Users\\ASUS\\Documents\\Hitung Harga Properti\\Hitung Harga Properti\\Reports\\20240317_235307\\Hitung Harga Properti\\20240317_235307\\Screenshots/Hitung Harga Properti/Negative Case/Hasil Hitung Negatif Data Ke1.png, C:\\Users\\ASUS\\Documents\\Hitung Harga Properti\\Hitung Harga Properti\\Reports\\20240317_235307\\Hitung Harga Properti\\20240317_235307\\1710694583345.png, C:\\Users\\ASUS\\Documents\\Hitung Harga Properti\\Hitung Harga Properti\\Reports\\20240317_235307\\Hitung Harga Properti\\20240317_235307\\Screenshots/Hitung Harga Properti/Negative Case/Hasil Hitung Negatif Data Ke2.png"/>
+         <property name="hostName" value="ASUS - DESKTOP-GVGR56C"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.3.1.212"/>
+         <property name="browser" value="Chrome 122.0.0.0"/>
+         <property name="hostAddress" value="192.168.43.18"/>
+         <property name="sessionId" value="055a0658d6c5c35a7eaebced7bf007bb"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Open URL" time="10.45" classname="Test Cases/Open URL" status="PASSED">
+         <system-out><![CDATA[17-03-2024T23:53:20 - [TEST_CASE][PASSED] - Test Cases/Open URL: Test Cases/Open URL
+
+17-03-2024T23:53:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+17-03-2024T23:53:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+17-03-2024T23:53:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+17-03-2024T23:53:27 - [MESSAGE][WARNING] - FFmpeg was not installed! Browser Recording will be disabled. Please follow this document to install FFmpeg first: https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder
+
+17-03-2024T23:53:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+17-03-2024T23:53:27 - [TEST_STEP][PASSED] - navigateToUrl("https://www.btnproperti.co.id/tools/hitung-harga-properti"): Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully
+
+17-03-2024T23:53:30 - [MESSAGE][PASSED] - Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Hitung Harga Properti" time="174.845" classname="Test Cases/Hitung Harga Properti" status="PASSED">
+         <system-out><![CDATA[17-03-2024T23:53:30 - [TEST_CASE][PASSED] - Test Cases/Hitung Harga Properti: Test Cases/Hitung Harga Properti
+
+17-03-2024T23:53:32 - [TEST_STEP][PASSED] - projectDir = Paths.get(getProjectDir()): null
+
+17-03-2024T23:53:33 - [TEST_STEP][PASSED] - reportDir = projectDir.resolve("Screenshots/Hitung Harga Properti/"): null
+
+17-03-2024T23:53:33 - [TEST_STEP][PASSED] - Files.createDirectories(reportDir): null
+
+17-03-2024T23:53:33 - [TEST_STEP][PASSED] - base_dir = "Screenshots/Hitung Harga Properti/": null
+
+17-03-2024T23:53:33 - [TEST_STEP][PASSED] - println("1. Hitung Harga Properti (Data Positif)"): null
+
+17-03-2024T23:53:33 - [TEST_STEP][PASSED] - for ([rowNum = 1, rowNum <= 5, <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>]): null
+
+17-03-2024T23:53:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Daftar Harga").getValue(1, rowNum)): Text '50000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+17-03-2024T23:54:35 - [MESSAGE][PASSED] - Text '50000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+17-03-2024T23:54:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Daftar Harga").getValue(2, rowNum)): Text '30000000' is set on object 'Object Repository/Input Pengeluaran'
+
+17-03-2024T23:54:52 - [MESSAGE][PASSED] - Text '30000000' is set on object 'Object Repository/Input Pengeluaran'
+
+17-03-2024T23:54:52 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Daftar Harga").getValue(3, rowNum), true): All options with value '25' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+17-03-2024T23:54:54 - [MESSAGE][PASSED] - All options with value '25' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+17-03-2024T23:54:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Button_Hitung Harga")): Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+17-03-2024T23:54:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+17-03-2024T23:54:57 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 2.000.000.000'
+
+17-03-2024T23:54:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 2.000.000.000'
+
+17-03-2024T23:54:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+17-03-2024T23:55:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+17-03-2024T23:55:01 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+17-03-2024T23:55:02 - [MESSAGE][INFO] - 0 hidden object(s)
+
+17-03-2024T23:55:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS\\Documents\\Hitung Harga Properti\\Hitung Harga Properti\\Reports\\20240317_235307\\Hitung Harga Properti\\20240317_235307\\1710694501658.png]]
+
+17-03-2024T23:55:03 - [TEST_STEP][PASSED] - takeFullPageScreenshot(base_dir + "Positive Case/Hasil Harga Properti (Data Positif)" + rowNum + ".png"): Taking screenshot successfully
+
+17-03-2024T23:55:04 - [MESSAGE][INFO] - 0 hidden object(s)
+
+17-03-2024T23:55:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS\\Documents\\Hitung Harga Properti\\Hitung Harga Properti\\Reports\\20240317_235307\\Hitung Harga Properti\\20240317_235307\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)1.png]]
+
+17-03-2024T23:55:04 - [TEST_STEP][PASSED] - Hasil_Hitung_Positif = getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 2.000.000.000'
+
+17-03-2024T23:55:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 2.000.000.000'
+
+17-03-2024T23:55:04 - [TEST_STEP][PASSED] - Hasil_Hitung_Web_Positif = replaceAll("Rp ", "").trim(): null
+
+17-03-2024T23:55:04 - [TEST_STEP][PASSED] - PenghasilanTotal = getValue(1, rowNum).toInteger(): null
+
+17-03-2024T23:55:04 - [TEST_STEP][PASSED] - Pengeluaran = getValue(2, rowNum).toInteger(): null
+
+17-03-2024T23:55:04 - [TEST_STEP][PASSED] - JangkaWaktu = getValue(3, rowNum).toInteger(): null
+
+17-03-2024T23:55:04 - [TEST_STEP][PASSED] - Hitung_Harga_Properti_Manual = PenghasilanTotal - Pengeluaran * JangkaWaktu * 12 / 3: null
+
+17-03-2024T23:55:04 - [TEST_STEP][PASSED] - Hasil_Hitung_Manual = Hitung_Harga_Properti_Manual.toString(): null
+
+17-03-2024T23:55:04 - [TEST_STEP][PASSED] - println(Hasil_Hitung_Web_Positif): null
+
+17-03-2024T23:55:04 - [TEST_STEP][PASSED] - println(Hasil_Hitung_Manual): null
+
+17-03-2024T23:55:04 - [TEST_STEP][PASSED] - if (Hasil_Hitung_Web_Positif == Hasil_Hitung_Manual): null
+
+17-03-2024T23:55:04 - [TEST_STEP][PASSED] - (rowNum++): null
+
+17-03-2024T23:55:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Daftar Harga").getValue(1, rowNum)): Text '50000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+17-03-2024T23:55:05 - [MESSAGE][PASSED] - Text '50000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+17-03-2024T23:55:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Daftar Harga").getValue(2, rowNum)): Text '20000000' is set on object 'Object Repository/Input Pengeluaran'
+
+17-03-2024T23:55:06 - [MESSAGE][PASSED] - Text '20000000' is set on object 'Object Repository/Input Pengeluaran'
+
+17-03-2024T23:55:06 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Daftar Harga").getValue(3, rowNum), true): All options with value '10' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+17-03-2024T23:55:08 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+17-03-2024T23:55:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Button_Hitung Harga")): Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+17-03-2024T23:55:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+17-03-2024T23:55:11 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 1.200.000.000'
+
+17-03-2024T23:55:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 1.200.000.000'
+
+17-03-2024T23:55:13 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+17-03-2024T23:55:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+17-03-2024T23:55:16 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+17-03-2024T23:55:16 - [MESSAGE][INFO] - 0 hidden object(s)
+
+17-03-2024T23:55:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS\\Documents\\Hitung Harga Properti\\Hitung Harga Properti\\Reports\\20240317_235307\\Hitung Harga Properti\\20240317_235307\\1710694516043.png]]
+
+17-03-2024T23:55:16 - [TEST_STEP][PASSED] - takeFullPageScreenshot(base_dir + "Positive Case/Hasil Harga Properti (Data Positif)" + rowNum + ".png"): Taking screenshot successfully
+
+17-03-2024T23:55:17 - [MESSAGE][INFO] - 0 hidden object(s)
+
+17-03-2024T23:55:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS\\Documents\\Hitung Harga Properti\\Hitung Harga Properti\\Reports\\20240317_235307\\Hitung Harga Properti\\20240317_235307\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)2.png]]
+
+17-03-2024T23:55:17 - [TEST_STEP][PASSED] - Hasil_Hitung_Positif = getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 1.200.000.000'
+
+17-03-2024T23:55:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 1.200.000.000'
+
+17-03-2024T23:55:18 - [TEST_STEP][PASSED] - Hasil_Hitung_Web_Positif = replaceAll("Rp ", "").trim(): null
+
+17-03-2024T23:55:18 - [TEST_STEP][PASSED] - PenghasilanTotal = getValue(1, rowNum).toInteger(): null
+
+17-03-2024T23:55:18 - [TEST_STEP][PASSED] - Pengeluaran = getValue(2, rowNum).toInteger(): null
+
+17-03-2024T23:55:18 - [TEST_STEP][PASSED] - JangkaWaktu = getValue(3, rowNum).toInteger(): null
+
+17-03-2024T23:55:18 - [TEST_STEP][PASSED] - Hitung_Harga_Properti_Manual = PenghasilanTotal - Pengeluaran * JangkaWaktu * 12 / 3: null
+
+17-03-2024T23:55:18 - [TEST_STEP][PASSED] - Hasil_Hitung_Manual = Hitung_Harga_Properti_Manual.toString(): null
+
+17-03-2024T23:55:18 - [TEST_STEP][PASSED] - println(Hasil_Hitung_Web_Positif): null
+
+17-03-2024T23:55:18 - [TEST_STEP][PASSED] - println(Hasil_Hitung_Manual): null
+
+17-03-2024T23:55:18 - [TEST_STEP][PASSED] - if (Hasil_Hitung_Web_Positif == Hasil_Hitung_Manual): null
+
+17-03-2024T23:55:18 - [TEST_STEP][PASSED] - (rowNum++): null
+
+17-03-2024T23:55:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Daftar Harga").getValue(1, rowNum)): Text '20000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+17-03-2024T23:55:19 - [MESSAGE][PASSED] - Text '20000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+17-03-2024T23:55:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Daftar Harga").getValue(2, rowNum)): Text '10000000' is set on object 'Object Repository/Input Pengeluaran'
+
+17-03-2024T23:55:20 - [MESSAGE][PASSED] - Text '10000000' is set on object 'Object Repository/Input Pengeluaran'
+
+17-03-2024T23:55:20 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Daftar Harga").getValue(3, rowNum), true): All options with value '15' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+17-03-2024T23:55:21 - [MESSAGE][PASSED] - All options with value '15' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+17-03-2024T23:55:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Button_Hitung Harga")): Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+17-03-2024T23:55:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+17-03-2024T23:55:24 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 600.000.000'
+
+17-03-2024T23:55:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 600.000.000'
+
+17-03-2024T23:55:25 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+17-03-2024T23:55:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+17-03-2024T23:55:28 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+17-03-2024T23:55:29 - [MESSAGE][INFO] - 0 hidden object(s)
+
+17-03-2024T23:55:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS\\Documents\\Hitung Harga Properti\\Hitung Harga Properti\\Reports\\20240317_235307\\Hitung Harga Properti\\20240317_235307\\1710694528433.png]]
+
+17-03-2024T23:55:29 - [TEST_STEP][PASSED] - takeFullPageScreenshot(base_dir + "Positive Case/Hasil Harga Properti (Data Positif)" + rowNum + ".png"): Taking screenshot successfully
+
+17-03-2024T23:55:30 - [MESSAGE][INFO] - 0 hidden object(s)
+
+17-03-2024T23:55:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS\\Documents\\Hitung Harga Properti\\Hitung Harga Properti\\Reports\\20240317_235307\\Hitung Harga Properti\\20240317_235307\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)3.png]]
+
+17-03-2024T23:55:30 - [TEST_STEP][PASSED] - Hasil_Hitung_Positif = getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 600.000.000'
+
+17-03-2024T23:55:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 600.000.000'
+
+17-03-2024T23:55:30 - [TEST_STEP][PASSED] - Hasil_Hitung_Web_Positif = replaceAll("Rp ", "").trim(): null
+
+17-03-2024T23:55:30 - [TEST_STEP][PASSED] - PenghasilanTotal = getValue(1, rowNum).toInteger(): null
+
+17-03-2024T23:55:31 - [TEST_STEP][PASSED] - Pengeluaran = getValue(2, rowNum).toInteger(): null
+
+17-03-2024T23:55:31 - [TEST_STEP][PASSED] - JangkaWaktu = getValue(3, rowNum).toInteger(): null
+
+17-03-2024T23:55:31 - [TEST_STEP][PASSED] - Hitung_Harga_Properti_Manual = PenghasilanTotal - Pengeluaran * JangkaWaktu * 12 / 3: null
+
+17-03-2024T23:55:31 - [TEST_STEP][PASSED] - Hasil_Hitung_Manual = Hitung_Harga_Properti_Manual.toString(): null
+
+17-03-2024T23:55:31 - [TEST_STEP][PASSED] - println(Hasil_Hitung_Web_Positif): null
+
+17-03-2024T23:55:31 - [TEST_STEP][PASSED] - println(Hasil_Hitung_Manual): null
+
+17-03-2024T23:55:31 - [TEST_STEP][PASSED] - if (Hasil_Hitung_Web_Positif == Hasil_Hitung_Manual): null
+
+17-03-2024T23:55:31 - [TEST_STEP][PASSED] - (rowNum++): null
+
+17-03-2024T23:55:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Daftar Harga").getValue(1, rowNum)): Text '15000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+17-03-2024T23:55:32 - [MESSAGE][PASSED] - Text '15000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+17-03-2024T23:55:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Daftar Harga").getValue(2, rowNum)): Text '5000000' is set on object 'Object Repository/Input Pengeluaran'
+
+17-03-2024T23:55:33 - [MESSAGE][PASSED] - Text '5000000' is set on object 'Object Repository/Input Pengeluaran'
+
+17-03-2024T23:55:33 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Daftar Harga").getValue(3, rowNum), true): All options with value '20' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+17-03-2024T23:55:35 - [MESSAGE][PASSED] - All options with value '20' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+17-03-2024T23:55:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Button_Hitung Harga")): Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+17-03-2024T23:55:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+17-03-2024T23:55:37 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 800.000.000'
+
+17-03-2024T23:55:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 800.000.000'
+
+17-03-2024T23:55:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+17-03-2024T23:55:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+17-03-2024T23:55:43 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+17-03-2024T23:55:44 - [MESSAGE][INFO] - 0 hidden object(s)
+
+17-03-2024T23:55:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS\\Documents\\Hitung Harga Properti\\Hitung Harga Properti\\Reports\\20240317_235307\\Hitung Harga Properti\\20240317_235307\\1710694543304.png]]
+
+17-03-2024T23:55:44 - [TEST_STEP][PASSED] - takeFullPageScreenshot(base_dir + "Positive Case/Hasil Harga Properti (Data Positif)" + rowNum + ".png"): Taking screenshot successfully
+
+17-03-2024T23:55:44 - [MESSAGE][INFO] - 0 hidden object(s)
+
+17-03-2024T23:55:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS\\Documents\\Hitung Harga Properti\\Hitung Harga Properti\\Reports\\20240317_235307\\Hitung Harga Properti\\20240317_235307\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)4.png]]
+
+17-03-2024T23:55:44 - [TEST_STEP][PASSED] - Hasil_Hitung_Positif = getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 800.000.000'
+
+17-03-2024T23:55:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 800.000.000'
+
+17-03-2024T23:55:45 - [TEST_STEP][PASSED] - Hasil_Hitung_Web_Positif = replaceAll("Rp ", "").trim(): null
+
+17-03-2024T23:55:45 - [TEST_STEP][PASSED] - PenghasilanTotal = getValue(1, rowNum).toInteger(): null
+
+17-03-2024T23:55:45 - [TEST_STEP][PASSED] - Pengeluaran = getValue(2, rowNum).toInteger(): null
+
+17-03-2024T23:55:45 - [TEST_STEP][PASSED] - JangkaWaktu = getValue(3, rowNum).toInteger(): null
+
+17-03-2024T23:55:45 - [TEST_STEP][PASSED] - Hitung_Harga_Properti_Manual = PenghasilanTotal - Pengeluaran * JangkaWaktu * 12 / 3: null
+
+17-03-2024T23:55:45 - [TEST_STEP][PASSED] - Hasil_Hitung_Manual = Hitung_Harga_Properti_Manual.toString(): null
+
+17-03-2024T23:55:45 - [TEST_STEP][PASSED] - println(Hasil_Hitung_Web_Positif): null
+
+17-03-2024T23:55:45 - [TEST_STEP][PASSED] - println(Hasil_Hitung_Manual): null
+
+17-03-2024T23:55:45 - [TEST_STEP][PASSED] - if (Hasil_Hitung_Web_Positif == Hasil_Hitung_Manual): null
+
+17-03-2024T23:55:45 - [TEST_STEP][PASSED] - (rowNum++): null
+
+17-03-2024T23:55:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Daftar Harga").getValue(1, rowNum)): Text '10000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+17-03-2024T23:55:46 - [MESSAGE][PASSED] - Text '10000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+17-03-2024T23:55:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Daftar Harga").getValue(2, rowNum)): Text '3000000' is set on object 'Object Repository/Input Pengeluaran'
+
+17-03-2024T23:55:47 - [MESSAGE][PASSED] - Text '3000000' is set on object 'Object Repository/Input Pengeluaran'
+
+17-03-2024T23:55:47 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Daftar Harga").getValue(3, rowNum), true): All options with value '25' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+17-03-2024T23:55:49 - [MESSAGE][PASSED] - All options with value '25' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+17-03-2024T23:55:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Button_Hitung Harga")): Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+17-03-2024T23:55:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+17-03-2024T23:55:51 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 700.000.000'
+
+17-03-2024T23:55:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 700.000.000'
+
+17-03-2024T23:55:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+17-03-2024T23:55:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+17-03-2024T23:55:55 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+17-03-2024T23:55:56 - [MESSAGE][INFO] - 0 hidden object(s)
+
+17-03-2024T23:55:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS\\Documents\\Hitung Harga Properti\\Hitung Harga Properti\\Reports\\20240317_235307\\Hitung Harga Properti\\20240317_235307\\1710694555965.png]]
+
+17-03-2024T23:55:56 - [TEST_STEP][PASSED] - takeFullPageScreenshot(base_dir + "Positive Case/Hasil Harga Properti (Data Positif)" + rowNum + ".png"): Taking screenshot successfully
+
+17-03-2024T23:55:57 - [MESSAGE][INFO] - 0 hidden object(s)
+
+17-03-2024T23:55:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS\\Documents\\Hitung Harga Properti\\Hitung Harga Properti\\Reports\\20240317_235307\\Hitung Harga Properti\\20240317_235307\\Screenshots/Hitung Harga Properti/Positive Case/Hasil Harga Properti (Data Positif)5.png]]
+
+17-03-2024T23:55:57 - [TEST_STEP][PASSED] - Hasil_Hitung_Positif = getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 700.000.000'
+
+17-03-2024T23:55:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp 700.000.000'
+
+17-03-2024T23:55:57 - [TEST_STEP][PASSED] - Hasil_Hitung_Web_Positif = replaceAll("Rp ", "").trim(): null
+
+17-03-2024T23:55:57 - [TEST_STEP][PASSED] - PenghasilanTotal = getValue(1, rowNum).toInteger(): null
+
+17-03-2024T23:55:57 - [TEST_STEP][PASSED] - Pengeluaran = getValue(2, rowNum).toInteger(): null
+
+17-03-2024T23:55:57 - [TEST_STEP][PASSED] - JangkaWaktu = getValue(3, rowNum).toInteger(): null
+
+17-03-2024T23:55:58 - [TEST_STEP][PASSED] - Hitung_Harga_Properti_Manual = PenghasilanTotal - Pengeluaran * JangkaWaktu * 12 / 3: null
+
+17-03-2024T23:55:58 - [TEST_STEP][PASSED] - Hasil_Hitung_Manual = Hitung_Harga_Properti_Manual.toString(): null
+
+17-03-2024T23:55:58 - [TEST_STEP][PASSED] - println(Hasil_Hitung_Web_Positif): null
+
+17-03-2024T23:55:58 - [TEST_STEP][PASSED] - println(Hasil_Hitung_Manual): null
+
+17-03-2024T23:55:58 - [TEST_STEP][PASSED] - if (Hasil_Hitung_Web_Positif == Hasil_Hitung_Manual): null
+
+17-03-2024T23:55:58 - [TEST_STEP][PASSED] - (rowNum++): null
+
+17-03-2024T23:55:58 - [TEST_STEP][PASSED] - println("2. Hitung Harga Properti (Data Negatif"): null
+
+17-03-2024T23:55:58 - [TEST_STEP][PASSED] - println("a. Perhitungan Harga Properti (Penghasilan Total > Pengeluaran)"): null
+
+17-03-2024T23:55:58 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+17-03-2024T23:56:00 - [MESSAGE][PASSED] - Refresh successfully
+
+17-03-2024T23:56:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Daftar Harga").getValue(1, 6)): Text '10000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+17-03-2024T23:56:02 - [MESSAGE][PASSED] - Text '10000000' is set on object 'Object Repository/Input Penghasilan Total'
+
+17-03-2024T23:56:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Daftar Harga").getValue(2, 6)): Text '10000001' is set on object 'Object Repository/Input Pengeluaran'
+
+17-03-2024T23:56:03 - [MESSAGE][PASSED] - Text '10000001' is set on object 'Object Repository/Input Pengeluaran'
+
+17-03-2024T23:56:03 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Daftar Harga").getValue(3, 6), true): All options with value '5' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+17-03-2024T23:56:05 - [MESSAGE][PASSED] - All options with value '5' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+17-03-2024T23:56:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+17-03-2024T23:56:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+17-03-2024T23:56:08 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+17-03-2024T23:56:09 - [MESSAGE][INFO] - 0 hidden object(s)
+
+17-03-2024T23:56:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS\\Documents\\Hitung Harga Properti\\Hitung Harga Properti\\Reports\\20240317_235307\\Hitung Harga Properti\\20240317_235307\\1710694568657.png]]
+
+17-03-2024T23:56:09 - [TEST_STEP][PASSED] - takeFullPageScreenshot(base_dir + "Negative Case/Hasil Hitung Negatif Data Ke1.png"): Taking screenshot successfully
+
+17-03-2024T23:56:10 - [MESSAGE][INFO] - 0 hidden object(s)
+
+17-03-2024T23:56:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS\\Documents\\Hitung Harga Properti\\Hitung Harga Properti\\Reports\\20240317_235307\\Hitung Harga Properti\\20240317_235307\\Screenshots/Hitung Harga Properti/Negative Case/Hasil Hitung Negatif Data Ke1.png]]
+
+17-03-2024T23:56:10 - [TEST_STEP][PASSED] - print("Penghasilan Total Kurang Dari Pengeluaran"): null
+
+17-03-2024T23:56:10 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+17-03-2024T23:56:10 - [MESSAGE][PASSED] - Refresh successfully
+
+17-03-2024T23:56:10 - [TEST_STEP][PASSED] - println("b. Perhitungan Aplikasi Web (Penghasilan Total > Pengeluaran) Dengan Nilai Koma"): null
+
+17-03-2024T23:56:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Daftar Harga").getValue(1, 7)): Text '8434533.53' is set on object 'Object Repository/Input Penghasilan Total'
+
+17-03-2024T23:56:14 - [MESSAGE][PASSED] - Text '8434533.53' is set on object 'Object Repository/Input Penghasilan Total'
+
+17-03-2024T23:56:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Daftar Harga").getValue(2, 7)): Text '10000000' is set on object 'Object Repository/Input Pengeluaran'
+
+17-03-2024T23:56:15 - [MESSAGE][PASSED] - Text '10000000' is set on object 'Object Repository/Input Pengeluaran'
+
+17-03-2024T23:56:15 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Daftar Harga").getValue(3, 7), true): All options with value '10' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+17-03-2024T23:56:17 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/Jangka Waktu'  using regular expression
+
+17-03-2024T23:56:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Button_Hitung Harga")): Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+17-03-2024T23:56:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Button_Hitung Harga' is clicked on
+
+17-03-2024T23:56:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+17-03-2024T23:56:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+17-03-2024T23:56:23 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+17-03-2024T23:56:24 - [MESSAGE][INFO] - 0 hidden object(s)
+
+17-03-2024T23:56:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS\\Documents\\Hitung Harga Properti\\Hitung Harga Properti\\Reports\\20240317_235307\\Hitung Harga Properti\\20240317_235307\\1710694583345.png]]
+
+17-03-2024T23:56:24 - [TEST_STEP][PASSED] - takeFullPageScreenshot(base_dir + "Negative Case/Hasil Hitung Negatif Data Ke2.png"): Taking screenshot successfully
+
+17-03-2024T23:56:25 - [MESSAGE][INFO] - 0 hidden object(s)
+
+17-03-2024T23:56:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS\\Documents\\Hitung Harga Properti\\Hitung Harga Properti\\Reports\\20240317_235307\\Hitung Harga Properti\\20240317_235307\\Screenshots/Hitung Harga Properti/Negative Case/Hasil Hitung Negatif Data Ke2.png]]
+
+17-03-2024T23:56:25 - [TEST_STEP][PASSED] - Hasil_Hitung_Negatif = getText(findTestObject("Object Repository/Hasil Hitung Properti")): Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp -62.618.680'
+
+17-03-2024T23:56:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/Hasil Hitung Properti' is: 'Rp -62.618.680'
+
+17-03-2024T23:56:25 - [TEST_STEP][PASSED] - println(Hasil_Hitung_Negatif): null
+
+17-03-2024T23:56:25 - [TEST_STEP][PASSED] - println(" -> Tidak muncul validasi penghasilan total kurang dari pengeluaran"): null
+
+17-03-2024T23:56:25 - [TEST_STEP][PASSED] - println(" -> Hasil hitung bernilai minus (-)"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[17-03-2024T23:53:19 - [TEST_SUITE][PASSED] - Hitung Harga Properti: Test Cases/Hitung Harga Properti]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

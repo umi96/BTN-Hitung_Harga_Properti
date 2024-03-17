@@ -1,0 +1,496 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. projectDir = Paths.get(getProjectDir())
+
+2
+00:00:00,000 --> 00:00:00,000
+5. reportDir = projectDir.resolve("Screenshots/Hitung Harga Properti/")
+
+3
+00:00:00,000 --> 00:00:00,000
+9. Files.createDirectories(reportDir)
+
+4
+00:00:00,000 --> 00:00:00,000
+13. base_dir = "Screenshots/Hitung Harga Properti/"
+
+5
+00:00:00,000 --> 00:00:00,000
+17. println("1. Hitung Harga Properti (Data Positif)")
+
+6
+00:00:00,000 --> 00:00:00,000
+21. for ([rowNum = 1, rowNum <= 5, <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>])
+
+7
+00:00:00,000 --> 00:00:00,000
+1. setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Daftar Harga").getValue(1, rowNum))
+
+8
+00:00:00,000 --> 00:00:00,000
+5. setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Daftar Harga").getValue(2, rowNum))
+
+9
+00:00:00,000 --> 00:00:00,000
+9. selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Daftar Harga").getValue(3, rowNum), true)
+
+10
+00:00:00,000 --> 00:00:00,000
+13. click(findTestObject("Object Repository/Button_Hitung Harga"))
+
+11
+00:00:00,000 --> 00:00:00,000
+17. getText(findTestObject("Object Repository/Hasil Hitung Properti"))
+
+12
+00:00:00,000 --> 00:00:00,000
+21. delay(3)
+
+13
+00:00:00,000 --> 00:00:00,000
+25. takeFullPageScreenshot()
+
+14
+00:00:00,000 --> 00:00:00,000
+29. takeFullPageScreenshot(base_dir + "Positive Case/Hasil Harga Properti (Data Positif)" + rowNum + ".png")
+
+15
+00:00:00,000 --> 00:00:00,000
+33. Hasil_Hitung_Positif = getText(findTestObject("Object Repository/Hasil Hitung Properti"))
+
+16
+00:00:00,000 --> 00:00:00,000
+37. Hasil_Hitung_Web_Positif = replaceAll("Rp ", "").trim()
+
+17
+00:00:00,000 --> 00:00:00,000
+41. PenghasilanTotal = getValue(1, rowNum).toInteger()
+
+18
+00:00:00,000 --> 00:00:00,000
+45. Pengeluaran = getValue(2, rowNum).toInteger()
+
+19
+00:00:00,000 --> 00:00:00,000
+49. JangkaWaktu = getValue(3, rowNum).toInteger()
+
+20
+00:00:00,000 --> 00:00:00,000
+53. Hitung_Harga_Properti_Manual = PenghasilanTotal - Pengeluaran * JangkaWaktu * 12 / 3
+
+21
+00:00:00,000 --> 00:00:00,000
+57. Hasil_Hitung_Manual = Hitung_Harga_Properti_Manual.toString()
+
+22
+00:00:00,000 --> 00:00:00,000
+61. println(Hasil_Hitung_Web_Positif)
+
+23
+00:00:00,000 --> 00:00:00,000
+65. println(Hasil_Hitung_Manual)
+
+24
+00:00:00,000 --> 00:00:00,000
+69. if (Hasil_Hitung_Web_Positif == Hasil_Hitung_Manual)
+
+25
+00:00:00,000 --> 00:00:00,000
+73. (rowNum++)
+
+26
+00:00:00,000 --> 00:00:00,000
+1. setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Daftar Harga").getValue(1, rowNum))
+
+27
+00:00:00,000 --> 00:00:00,000
+5. setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Daftar Harga").getValue(2, rowNum))
+
+28
+00:00:00,000 --> 00:00:00,000
+9. selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Daftar Harga").getValue(3, rowNum), true)
+
+29
+00:00:00,000 --> 00:00:00,000
+13. click(findTestObject("Object Repository/Button_Hitung Harga"))
+
+30
+00:00:00,000 --> 00:00:00,000
+17. getText(findTestObject("Object Repository/Hasil Hitung Properti"))
+
+31
+00:00:00,000 --> 00:00:00,000
+21. delay(3)
+
+32
+00:00:00,000 --> 00:00:00,000
+25. takeFullPageScreenshot()
+
+33
+00:00:00,000 --> 00:00:00,000
+29. takeFullPageScreenshot(base_dir + "Positive Case/Hasil Harga Properti (Data Positif)" + rowNum + ".png")
+
+34
+00:00:00,000 --> 00:00:00,000
+33. Hasil_Hitung_Positif = getText(findTestObject("Object Repository/Hasil Hitung Properti"))
+
+35
+00:00:00,000 --> 00:00:00,000
+37. Hasil_Hitung_Web_Positif = replaceAll("Rp ", "").trim()
+
+36
+00:00:00,000 --> 00:00:00,000
+41. PenghasilanTotal = getValue(1, rowNum).toInteger()
+
+37
+00:00:00,000 --> 00:00:00,000
+45. Pengeluaran = getValue(2, rowNum).toInteger()
+
+38
+00:00:00,000 --> 00:00:00,000
+49. JangkaWaktu = getValue(3, rowNum).toInteger()
+
+39
+00:00:00,000 --> 00:00:00,000
+53. Hitung_Harga_Properti_Manual = PenghasilanTotal - Pengeluaran * JangkaWaktu * 12 / 3
+
+40
+00:00:00,000 --> 00:00:00,000
+57. Hasil_Hitung_Manual = Hitung_Harga_Properti_Manual.toString()
+
+41
+00:00:00,000 --> 00:00:00,000
+61. println(Hasil_Hitung_Web_Positif)
+
+42
+00:00:00,000 --> 00:00:00,000
+65. println(Hasil_Hitung_Manual)
+
+43
+00:00:00,000 --> 00:00:00,000
+69. if (Hasil_Hitung_Web_Positif == Hasil_Hitung_Manual)
+
+44
+00:00:00,000 --> 00:00:00,000
+73. (rowNum++)
+
+45
+00:00:00,000 --> 00:00:00,000
+1. setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Daftar Harga").getValue(1, rowNum))
+
+46
+00:00:00,000 --> 00:00:00,000
+5. setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Daftar Harga").getValue(2, rowNum))
+
+47
+00:00:00,000 --> 00:00:00,000
+9. selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Daftar Harga").getValue(3, rowNum), true)
+
+48
+00:00:00,000 --> 00:00:00,000
+13. click(findTestObject("Object Repository/Button_Hitung Harga"))
+
+49
+00:00:00,000 --> 00:00:00,000
+17. getText(findTestObject("Object Repository/Hasil Hitung Properti"))
+
+50
+00:00:00,000 --> 00:00:00,000
+21. delay(3)
+
+51
+00:00:00,000 --> 00:00:00,000
+25. takeFullPageScreenshot()
+
+52
+00:00:00,000 --> 00:00:00,000
+29. takeFullPageScreenshot(base_dir + "Positive Case/Hasil Harga Properti (Data Positif)" + rowNum + ".png")
+
+53
+00:00:00,000 --> 00:00:00,000
+33. Hasil_Hitung_Positif = getText(findTestObject("Object Repository/Hasil Hitung Properti"))
+
+54
+00:00:00,000 --> 00:00:00,000
+37. Hasil_Hitung_Web_Positif = replaceAll("Rp ", "").trim()
+
+55
+00:00:00,000 --> 00:00:00,000
+41. PenghasilanTotal = getValue(1, rowNum).toInteger()
+
+56
+00:00:00,000 --> 00:00:00,000
+45. Pengeluaran = getValue(2, rowNum).toInteger()
+
+57
+00:00:00,000 --> 00:00:00,000
+49. JangkaWaktu = getValue(3, rowNum).toInteger()
+
+58
+00:00:00,000 --> 00:00:00,000
+53. Hitung_Harga_Properti_Manual = PenghasilanTotal - Pengeluaran * JangkaWaktu * 12 / 3
+
+59
+00:00:00,000 --> 00:00:00,000
+57. Hasil_Hitung_Manual = Hitung_Harga_Properti_Manual.toString()
+
+60
+00:00:00,000 --> 00:00:00,000
+61. println(Hasil_Hitung_Web_Positif)
+
+61
+00:00:00,000 --> 00:00:00,000
+65. println(Hasil_Hitung_Manual)
+
+62
+00:00:00,000 --> 00:00:00,000
+69. if (Hasil_Hitung_Web_Positif == Hasil_Hitung_Manual)
+
+63
+00:00:00,000 --> 00:00:00,000
+73. (rowNum++)
+
+64
+00:00:00,000 --> 00:00:00,000
+1. setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Daftar Harga").getValue(1, rowNum))
+
+65
+00:00:00,000 --> 00:00:00,000
+5. setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Daftar Harga").getValue(2, rowNum))
+
+66
+00:00:00,000 --> 00:00:00,000
+9. selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Daftar Harga").getValue(3, rowNum), true)
+
+67
+00:00:00,000 --> 00:00:00,000
+13. click(findTestObject("Object Repository/Button_Hitung Harga"))
+
+68
+00:00:00,000 --> 00:00:00,000
+17. getText(findTestObject("Object Repository/Hasil Hitung Properti"))
+
+69
+00:00:00,000 --> 00:00:00,000
+21. delay(3)
+
+70
+00:00:00,000 --> 00:00:00,000
+25. takeFullPageScreenshot()
+
+71
+00:00:00,000 --> 00:00:00,000
+29. takeFullPageScreenshot(base_dir + "Positive Case/Hasil Harga Properti (Data Positif)" + rowNum + ".png")
+
+72
+00:00:00,000 --> 00:00:00,000
+33. Hasil_Hitung_Positif = getText(findTestObject("Object Repository/Hasil Hitung Properti"))
+
+73
+00:00:00,000 --> 00:00:00,000
+37. Hasil_Hitung_Web_Positif = replaceAll("Rp ", "").trim()
+
+74
+00:00:00,000 --> 00:00:00,000
+41. PenghasilanTotal = getValue(1, rowNum).toInteger()
+
+75
+00:00:00,000 --> 00:00:00,000
+45. Pengeluaran = getValue(2, rowNum).toInteger()
+
+76
+00:00:00,000 --> 00:00:00,000
+49. JangkaWaktu = getValue(3, rowNum).toInteger()
+
+77
+00:00:00,000 --> 00:00:00,000
+53. Hitung_Harga_Properti_Manual = PenghasilanTotal - Pengeluaran * JangkaWaktu * 12 / 3
+
+78
+00:00:00,000 --> 00:00:00,000
+57. Hasil_Hitung_Manual = Hitung_Harga_Properti_Manual.toString()
+
+79
+00:00:00,000 --> 00:00:00,000
+61. println(Hasil_Hitung_Web_Positif)
+
+80
+00:00:00,000 --> 00:00:00,000
+65. println(Hasil_Hitung_Manual)
+
+81
+00:00:00,000 --> 00:00:00,000
+69. if (Hasil_Hitung_Web_Positif == Hasil_Hitung_Manual)
+
+82
+00:00:00,000 --> 00:00:00,000
+73. (rowNum++)
+
+83
+00:00:00,000 --> 00:00:00,000
+1. setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Daftar Harga").getValue(1, rowNum))
+
+84
+00:00:00,000 --> 00:00:00,000
+5. setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Daftar Harga").getValue(2, rowNum))
+
+85
+00:00:00,000 --> 00:00:00,000
+9. selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Daftar Harga").getValue(3, rowNum), true)
+
+86
+00:00:00,000 --> 00:00:00,000
+13. click(findTestObject("Object Repository/Button_Hitung Harga"))
+
+87
+00:00:00,000 --> 00:00:00,000
+17. getText(findTestObject("Object Repository/Hasil Hitung Properti"))
+
+88
+00:00:00,000 --> 00:00:00,000
+21. delay(3)
+
+89
+00:00:00,000 --> 00:00:00,000
+25. takeFullPageScreenshot()
+
+90
+00:00:00,000 --> 00:00:00,000
+29. takeFullPageScreenshot(base_dir + "Positive Case/Hasil Harga Properti (Data Positif)" + rowNum + ".png")
+
+91
+00:00:00,000 --> 00:00:00,000
+33. Hasil_Hitung_Positif = getText(findTestObject("Object Repository/Hasil Hitung Properti"))
+
+92
+00:00:00,000 --> 00:00:00,000
+37. Hasil_Hitung_Web_Positif = replaceAll("Rp ", "").trim()
+
+93
+00:00:00,000 --> 00:00:00,000
+41. PenghasilanTotal = getValue(1, rowNum).toInteger()
+
+94
+00:00:00,000 --> 00:00:00,000
+45. Pengeluaran = getValue(2, rowNum).toInteger()
+
+95
+00:00:00,000 --> 00:00:00,000
+49. JangkaWaktu = getValue(3, rowNum).toInteger()
+
+96
+00:00:00,000 --> 00:00:00,000
+53. Hitung_Harga_Properti_Manual = PenghasilanTotal - Pengeluaran * JangkaWaktu * 12 / 3
+
+97
+00:00:00,000 --> 00:00:00,000
+57. Hasil_Hitung_Manual = Hitung_Harga_Properti_Manual.toString()
+
+98
+00:00:00,000 --> 00:00:00,000
+61. println(Hasil_Hitung_Web_Positif)
+
+99
+00:00:00,000 --> 00:00:00,000
+65. println(Hasil_Hitung_Manual)
+
+100
+00:00:00,000 --> 00:00:00,000
+69. if (Hasil_Hitung_Web_Positif == Hasil_Hitung_Manual)
+
+101
+00:00:00,000 --> 00:00:00,000
+73. (rowNum++)
+
+102
+00:00:00,000 --> 00:00:00,000
+25. println("2. Hitung Harga Properti (Data Negatif")
+
+103
+00:00:00,000 --> 00:00:00,000
+29. println("a. Perhitungan Harga Properti (Penghasilan Total > Pengeluaran)")
+
+104
+00:00:00,000 --> 00:00:00,000
+33. refresh()
+
+105
+00:00:00,000 --> 00:00:00,000
+37. setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Daftar Harga").getValue(1, 6))
+
+106
+00:00:00,000 --> 00:00:00,000
+41. setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Daftar Harga").getValue(2, 6))
+
+107
+00:00:00,000 --> 00:00:00,000
+45. selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Daftar Harga").getValue(3, 6), true)
+
+108
+00:00:00,000 --> 00:00:00,000
+49. delay(3)
+
+109
+00:00:00,000 --> 00:00:00,000
+53. takeFullPageScreenshot()
+
+110
+00:00:00,000 --> 00:00:00,000
+57. takeFullPageScreenshot(base_dir + "Negative Case/Hasil Hitung Negatif Data Ke1.png")
+
+111
+00:00:00,000 --> 00:00:00,000
+61. print("Penghasilan Total Kurang Dari Pengeluaran")
+
+112
+00:00:00,000 --> 00:00:00,000
+65. refresh()
+
+113
+00:00:00,000 --> 00:00:00,000
+69. println("b. Perhitungan Aplikasi Web (Penghasilan Total > Pengeluaran) Dengan Nilai Koma")
+
+114
+00:00:00,000 --> 00:00:00,000
+73. setText(findTestObject("Object Repository/Input Penghasilan Total"), findTestData("Daftar Harga").getValue(1, 7))
+
+115
+00:00:00,000 --> 00:00:00,000
+77. setText(findTestObject("Object Repository/Input Pengeluaran"), findTestData("Daftar Harga").getValue(2, 7))
+
+116
+00:00:00,000 --> 00:00:00,000
+81. selectOptionByValue(findTestObject("Object Repository/Jangka Waktu"), findTestData("Daftar Harga").getValue(3, 7), true)
+
+117
+00:00:00,000 --> 00:00:00,000
+85. click(findTestObject("Object Repository/Button_Hitung Harga"))
+
+118
+00:00:00,000 --> 00:00:00,000
+89. delay(3)
+
+119
+00:00:00,000 --> 00:00:00,000
+93. takeFullPageScreenshot()
+
+120
+00:00:00,000 --> 00:00:00,000
+97. takeFullPageScreenshot(base_dir + "Negative Case/Hasil Hitung Negatif Data Ke2.png")
+
+121
+00:00:00,000 --> 00:00:00,000
+101. Hasil_Hitung_Negatif = getText(findTestObject("Object Repository/Hasil Hitung Properti"))
+
+122
+00:00:00,000 --> 00:00:00,000
+105. println(Hasil_Hitung_Negatif)
+
+123
+00:00:00,000 --> 00:00:00,000
+109. println(" -> Tidak muncul validasi penghasilan total kurang dari pengeluaran")
+
+124
+00:00:00,000 --> 00:00:00,000
+113. println(" -> Hasil hitung bernilai minus (-)")
+
