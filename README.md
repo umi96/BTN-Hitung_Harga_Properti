@@ -13,7 +13,7 @@
 #--Data pertama dengan nilai bulat penghasilan total < pengeluaran, muncul validasi.
 #--Data kedua dengan nilai desimal penghasilan total < pengeluaran, tidak muncul validasi dan hasil bernilai minus(-).
 
-#Report berupa pdf dan video beserta screenshots terlampir dalam project ini.
+#Report berupa pdf, html, screenshots, dan video terlampir dalam project ini.
 
 Terimakasih atas kesempatan dan waktu yang diberikan,
 
